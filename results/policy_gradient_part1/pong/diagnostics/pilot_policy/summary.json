@@ -1,0 +1,45 @@
+{
+  "episodes": 30,
+  "mean": -20.5,
+  "sample_std": 0.9377154924749757,
+  "minimum": -21.0,
+  "maximum": -17.0,
+  "ci95_normal": [
+    -20.83555717946373,
+    -20.16444282053627
+  ],
+  "checkpoint": "D:\\Code\\MLDS\\Assignment_1\\results\\policy_gradient_part1\\pong\\pilots\\difference_lr_0.003\\latest.pt",
+  "checkpoint_sha256": "a8e589d849277baebffa8b1faa758cf08f296ad30ae7da08b21ca7245a1307fe",
+  "training_episodes": 10,
+  "training_seed": 101,
+  "evaluation_seed": 4000000,
+  "policy_mode": "stochastic",
+  "reference": null,
+  "role": "diagnostic",
+  "elapsed_seconds": 25.676622099999804,
+  "environment": {
+    "id": "ALE/Pong-v5",
+    "max_episode_steps": null,
+    "action_meanings": [
+      "NOOP",
+      "FIRE",
+      "RIGHT",
+      "LEFT",
+      "RIGHTFIRE",
+      "LEFTFIRE"
+    ],
+    "learned_action_mapping": [
+      2,
+      3
+    ],
+    "frameskip": 4,
+    "repeat_action_probability": 0.25,
+    "fire_on_reset": false,
+    "reward_clipping": false,
+    "point_return_resets": false,
+    "frame_difference": true
+  },
+  "terminated_count": 30,
+  "truncated_count": 0,
+  "action0_fraction": 0.5523809024658655
+}

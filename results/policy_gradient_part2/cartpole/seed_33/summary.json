@@ -1,0 +1,16 @@
+{
+  "completed_episodes": 1500,
+  "requested_episodes": 1500,
+  "complete": true,
+  "elapsed_this_invocation_seconds": 111.95375860000058,
+  "mean_last100": 134.75,
+  "training_seed": 33,
+  "checkpoint": "latest.pt",
+  "selection": "Fixed budget final checkpoint; no final evaluation used for selection",
+  "baseline": {
+    "kind": "ema_previous_discounted_G0",
+    "alpha": 0.05,
+    "value": 19.850015432964028,
+    "count": 1500
+  }
+}

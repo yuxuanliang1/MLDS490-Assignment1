@@ -1,0 +1,182 @@
+[
+  {
+    "t": 0,
+    "observation": {
+      "values": [
+        -0.013365308754146099,
+        -0.030070461332798004,
+        -0.04114416241645813,
+        0.01531916856765747
+      ]
+    },
+    "policy_action": 0,
+    "environment_action": 0,
+    "log_probability": -0.7223985195159912,
+    "reward": 1.0,
+    "terminated": false,
+    "truncated": false,
+    "reward_to_go": 15.481289180148673
+  },
+  {
+    "t": 1,
+    "observation": {
+      "values": [
+        -0.013966717757284641,
+        -0.22457894682884216,
+        -0.04083777964115143,
+        0.29474198818206787
+      ]
+    },
+    "policy_action": 0,
+    "environment_action": 0,
+    "log_probability": -0.7365453243255615,
+    "reward": 1.0,
+    "terminated": false,
+    "truncated": false,
+    "reward_to_go": 15.243462294893341
+  },
+  {
+    "t": 2,
+    "observation": {
+      "values": [
+        -0.018458295613527298,
+        -0.41909560561180115,
+        -0.03494293987751007,
+        0.5742707848548889
+      ]
+    },
+    "policy_action": 1,
+    "environment_action": 1,
+    "log_probability": -0.6526583433151245,
+    "reward": 1.0,
+    "terminated": false,
+    "truncated": false,
+    "reward_to_go": 14.993118205150886
+  },
+  {
+    "t": 3,
+    "observation": {
+      "values": [
+        -0.02684020809829235,
+        -0.22350163757801056,
+        -0.023457523435354233,
+        0.27078777551651
+      ]
+    },
+    "policy_action": 1,
+    "environment_action": 1,
+    "log_probability": -0.6516221761703491,
+    "reward": 1.0,
+    "terminated": false,
+    "truncated": false,
+    "reward_to_go": 14.729598110685144
+  },
+  {
+    "t": 4,
+    "observation": {
+      "values": [
+        -0.03131024166941643,
+        -0.02805294096469879,
+        -0.018041769042611122,
+        -0.029200498014688492
+      ]
+    },
+    "policy_action": 0,
+    "environment_action": 0,
+    "log_probability": -0.7207074761390686,
+    "reward": 1.0,
+    "terminated": false,
+    "truncated": false,
+    "reward_to_go": 14.45220853756331
+  },
+  {
+    "t": 5,
+    "observation": {
+      "values": [
+        -0.03187130019068718,
+        -0.22291158139705658,
+        -0.018625779077410698,
+        0.2577359080314636
+      ]
+    },
+    "policy_action": 1,
+    "environment_action": 1,
+    "log_probability": -0.6518529653549194,
+    "reward": 1.0,
+    "terminated": false,
+    "truncated": false,
+    "reward_to_go": 14.160219513224538
+  },
+  {
+    "t": 6,
+    "observation": {
+      "values": [
+        -0.03632953017950058,
+        -0.027528733015060425,
+        -0.013471060432493687,
+        -0.04076319932937622
+      ]
+    },
+    "policy_action": 0,
+    "environment_action": 0,
+    "log_probability": -0.720479428768158,
+    "reward": 1.0,
+    "terminated": false,
+    "truncated": false,
+    "reward_to_go": 13.852862645499515
+  },
+  {
+    "t": 7,
+    "observation": {
+      "values": [
+        -0.03688010573387146,
+        -0.2224549502134323,
+        -0.014286324381828308,
+        0.2476392239332199
+      ]
+    },
+    "policy_action": 1,
+    "environment_action": 1,
+    "log_probability": -0.6521174907684326,
+    "reward": 1.0,
+    "terminated": false,
+    "truncated": false,
+    "reward_to_go": 13.529329100525807
+  },
+  {
+    "t": 8,
+    "observation": {
+      "values": [
+        -0.04132920503616333,
+        -0.027131907641887665,
+        -0.009333540685474873,
+        -0.04951547458767891
+      ]
+    },
+    "policy_action": 1,
+    "environment_action": 1,
+    "log_probability": -0.6667267084121704,
+    "reward": 1.0,
+    "terminated": false,
+    "truncated": false,
+    "reward_to_go": 13.188767474237693
+  },
+  {
+    "t": 9,
+    "observation": {
+      "values": [
+        -0.04187184199690819,
+        0.16812261939048767,
+        -0.010323849506676197,
+        -0.34512853622436523
+      ]
+    },
+    "policy_action": 0,
+    "environment_action": 0,
+    "log_probability": -0.7006819248199463,
+    "reward": 1.0,
+    "terminated": false,
+    "truncated": false,
+    "reward_to_go": 12.83028155182915
+  }
+]

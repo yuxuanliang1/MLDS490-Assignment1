@@ -1,0 +1,51 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+report/*.aux
+report/*.log
+report/*.out
+report/*.toc
+report/*.fls
+report/*.fdb_latexmk
+tmp/
+*.pt
+*.pth
+*.tar.gz
+remote_artifacts/
+
+# Local course reference materials
+/references/
+
+# Excluded from submission at the owner's request; final PDF is at project root
+/report/
+
+# Local credentials, machine settings, and private agent configuration
+.env
+.env.*
+!.env.example
+.ssh/
+.aws/
+.codex/
+.agents/
+.vscode/
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+
+# Redundant delivery archives, process logs, and compilation/cache files
+*.zip
+*.log
+*.aux
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.bbl
+*.blg
+.cache/
+Thumbs.db
+desktop.ini

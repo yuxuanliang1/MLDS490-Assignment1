@@ -1,0 +1,6 @@
+# Optional Part 1 dependencies. Component 1 retains its original requirements.
+-r requirements.txt
+torch>=2.4,<3
+gymnasium>=1.0,<2
+# 0.11.2 failed Windows DLL initialization on the development machine.
+ale-py==0.10.2

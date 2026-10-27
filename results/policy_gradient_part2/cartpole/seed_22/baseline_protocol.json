@@ -1,0 +1,8 @@
+{
+  "kind": "ema_previous_discounted_G0",
+  "alpha": 0.05,
+  "statistic": "G_0 = sum_t gamma^t r_t, one scalar per completed episode",
+  "initialization": "Zero for the first batch; first observed G_0 initializes EMA",
+  "timing": "Frozen across the entire update batch; sequential EMA updates only AFTER Adam.step()",
+  "no_current_batch_leakage": true
+}

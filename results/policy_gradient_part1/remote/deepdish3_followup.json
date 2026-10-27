@@ -1,0 +1,159 @@
+﻿{
+  "hostname": "mlds-deepdish3",
+  "inspected_utc": "2026-10-26T22:09:01.912119+00:00",
+  "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+  "cpu_count": 48,
+  "cpu_affinity_count": 48,
+  "load_average": [
+    64.9541015625,
+    62.24755859375,
+    50.06884765625
+  ],
+  "tools": {
+    "python": null,
+    "python3": "/usr/bin/python3",
+    "conda": null,
+    "tmux": "/usr/bin/tmux",
+    "screen": "/usr/bin/screen",
+    "sbatch": null,
+    "srun": null,
+    "qsub": null,
+    "nvcc": null
+  },
+  "cpu_model": "Intel(R) Xeon(R) Silver 4214 CPU @ 2.20GHz",
+  "memory": {
+    "MemTotal_KiB": 131617652,
+    "MemAvailable_KiB": 106805324,
+    "SwapTotal_KiB": 0,
+    "SwapFree_KiB": 0
+  },
+  "nvidia_smi": {
+    "exit_code": 0,
+    "stdout": "Mon Oct 26 22:09:02 2026       \n+-----------------------------------------------------------------------------------------+\n| NVIDIA-SMI 580.178.04             Driver Version: 580.178.04     CUDA Version: 13.0     |\n+-----------------------------------------+------------------------+----------------------+\n| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |\n| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |\n|                                         |                        |               MIG M. |\n|=========================================+========================+======================|\n|   0  NVIDIA GeForce RTX 2080 Ti     On  |   00000000:1A:00.0 Off |                  N/A |\n| 51%   59C    P2             93W /  250W |   10810MiB /  11264MiB |     32%      Default |\n|                                         |                        |                  N/A |\n+-----------------------------------------+------------------------+----------------------+\n|   1  NVIDIA GeForce RTX 2080 Ti     On  |   00000000:1B:00.0 Off |                  N/A |\n| 22%   27C    P8             22W /  250W |       1MiB /  11264MiB |      0%      Default |\n|                                         |                        |                  N/A |\n+-----------------------------------------+------------------------+----------------------+\n|   2  NVIDIA GeForce RTX 2080 Ti     On  |   00000000:3D:00.0 Off |                  N/A |\n| 48%   56C    P2             92W /  250W |    8676MiB /  11264MiB |     32%      Default |\n|                                         |                        |                  N/A |\n+-----------------------------------------+------------------------+----------------------+\n|   3  NVIDIA GeForce RTX 2080 Ti     On  |   00000000:3E:00.0 Off |                  N/A |\n| 22%   26C    P8              4W /  250W |       1MiB /  11264MiB |      0%      Default |\n|                                         |                        |                  N/A |\n+-----------------------------------------+------------------------+----------------------+\n|   4  NVIDIA GeForce RTX 2080 Ti     On  |   00000000:88:00.0 Off |                  N/A |\n| 22%   23C    P8              1W /  250W |       1MiB /  11264MiB |      0%      Default |\n|                                         |                        |                  N/A |\n+-----------------------------------------+------------------------+----------------------+\n|   5  NVIDIA GeForce RTX 2080 Ti     On  |   00000000:89:00.0 Off |                  N/A |\n| 22%   25C    P8              2W /  250W |       1MiB /  11264MiB |      0%      Default |\n|                                         |                        |                  N/A |\n+-----------------------------------------+------------------------+----------------------+\n|   6  NVIDIA GeForce RTX 2080 Ti     On  |   00000000:B1:00.0 Off |                  N/A |\n| 22%   25C    P8              7W /  250W |       1MiB /  11264MiB |      0%      Default |\n|                                         |                        |                  N/A |\n+-----------------------------------------+------------------------+----------------------+\n|   7  NVIDIA GeForce RTX 2080 Ti     On  |   00000000:B2:00.0 Off |                  N/A |\n| 22%   25C    P8             19W /  250W |       1MiB /  11264MiB |      0%      Default |\n|                                         |                        |                  N/A |\n+-----------------------------------------+------------------------+----------------------+\n\n+-----------------------------------------------------------------------------------------+\n| Processes:                                                                              |\n|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |\n|        ID   ID                                                               Usage      |\n|=========================================================================================|\n|    0   N/A  N/A         3095245      C   python                                 2474MiB |\n|    0   N/A  N/A         3095412      C   python                                 1874MiB |\n|    0   N/A  N/A         3170758      C   python                                 6458MiB |\n|    2   N/A  N/A         3170863      C   python                                 8672MiB |\n+-----------------------------------------------------------------------------------------+",
+    "stderr": ""
+  },
+  "driver_cuda_compatibility": "13.0",
+  "gpu_query": {
+    "exit_code": 0,
+    "stdout": "0, GPU-4c5e8536-b97a-e779-d941-0ebcad4905d7, NVIDIA GeForce RTX 2080 Ti, 11264, 10810, 12, 19, 580.178.04, 7.5\n1, GPU-baad7cce-69b9-dc4a-0738-84a5a844d6cb, NVIDIA GeForce RTX 2080 Ti, 11264, 1, 10820, 0, 580.178.04, 7.5\n2, GPU-95f90b3a-dc7d-988f-fcad-5ea7f007d58a, NVIDIA GeForce RTX 2080 Ti, 11264, 8676, 2146, 16, 580.178.04, 7.5\n3, GPU-b7f3c2bd-53c4-ede9-6bcc-1c04b411e640, NVIDIA GeForce RTX 2080 Ti, 11264, 1, 10820, 0, 580.178.04, 7.5\n4, GPU-4657a7f9-c919-cead-c311-8663723dbd61, NVIDIA GeForce RTX 2080 Ti, 11264, 1, 10820, 0, 580.178.04, 7.5\n5, GPU-3af90a27-453f-f92b-2ec7-df857634c609, NVIDIA GeForce RTX 2080 Ti, 11264, 1, 10820, 0, 580.178.04, 7.5\n6, GPU-cf05dff2-3710-641f-f489-a668c38fc889, NVIDIA GeForce RTX 2080 Ti, 11264, 1, 10820, 0, 580.178.04, 7.5\n7, GPU-072b5c91-b77f-9aa5-bc9a-cf2ca9108530, NVIDIA GeForce RTX 2080 Ti, 11264, 1, 10820, 0, 580.178.04, 7.5",
+    "stderr": ""
+  },
+  "gpus": [
+    {
+      "index": "0",
+      "uuid": "GPU-4c5e8536-b97a-e779-d941-0ebcad4905d7",
+      "name": "NVIDIA GeForce RTX 2080 Ti",
+      "total_MiB": "11264",
+      "used_MiB": "10810",
+      "free_MiB": "12",
+      "utilization_percent": "19",
+      "driver": "580.178.04",
+      "compute_capability": "7.5"
+    },
+    {
+      "index": "1",
+      "uuid": "GPU-baad7cce-69b9-dc4a-0738-84a5a844d6cb",
+      "name": "NVIDIA GeForce RTX 2080 Ti",
+      "total_MiB": "11264",
+      "used_MiB": "1",
+      "free_MiB": "10820",
+      "utilization_percent": "0",
+      "driver": "580.178.04",
+      "compute_capability": "7.5"
+    },
+    {
+      "index": "2",
+      "uuid": "GPU-95f90b3a-dc7d-988f-fcad-5ea7f007d58a",
+      "name": "NVIDIA GeForce RTX 2080 Ti",
+      "total_MiB": "11264",
+      "used_MiB": "8676",
+      "free_MiB": "2146",
+      "utilization_percent": "16",
+      "driver": "580.178.04",
+      "compute_capability": "7.5"
+    },
+    {
+      "index": "3",
+      "uuid": "GPU-b7f3c2bd-53c4-ede9-6bcc-1c04b411e640",
+      "name": "NVIDIA GeForce RTX 2080 Ti",
+      "total_MiB": "11264",
+      "used_MiB": "1",
+      "free_MiB": "10820",
+      "utilization_percent": "0",
+      "driver": "580.178.04",
+      "compute_capability": "7.5"
+    },
+    {
+      "index": "4",
+      "uuid": "GPU-4657a7f9-c919-cead-c311-8663723dbd61",
+      "name": "NVIDIA GeForce RTX 2080 Ti",
+      "total_MiB": "11264",
+      "used_MiB": "1",
+      "free_MiB": "10820",
+      "utilization_percent": "0",
+      "driver": "580.178.04",
+      "compute_capability": "7.5"
+    },
+    {
+      "index": "5",
+      "uuid": "GPU-3af90a27-453f-f92b-2ec7-df857634c609",
+      "name": "NVIDIA GeForce RTX 2080 Ti",
+      "total_MiB": "11264",
+      "used_MiB": "1",
+      "free_MiB": "10820",
+      "utilization_percent": "0",
+      "driver": "580.178.04",
+      "compute_capability": "7.5"
+    },
+    {
+      "index": "6",
+      "uuid": "GPU-cf05dff2-3710-641f-f489-a668c38fc889",
+      "name": "NVIDIA GeForce RTX 2080 Ti",
+      "total_MiB": "11264",
+      "used_MiB": "1",
+      "free_MiB": "10820",
+      "utilization_percent": "0",
+      "driver": "580.178.04",
+      "compute_capability": "7.5"
+    },
+    {
+      "index": "7",
+      "uuid": "GPU-072b5c91-b77f-9aa5-bc9a-cf2ca9108530",
+      "name": "NVIDIA GeForce RTX 2080 Ti",
+      "total_MiB": "11264",
+      "used_MiB": "1",
+      "free_MiB": "10820",
+      "utilization_percent": "0",
+      "driver": "580.178.04",
+      "compute_capability": "7.5"
+    }
+  ],
+  "gpu_processes": {
+    "exit_code": 0,
+    "stdout": "GPU-4c5e8536-b97a-e779-d941-0ebcad4905d7, 3095245, python, 2474\nGPU-4c5e8536-b97a-e779-d941-0ebcad4905d7, 3095412, python, 1874\nGPU-4c5e8536-b97a-e779-d941-0ebcad4905d7, 3170758, python, 6458\nGPU-95f90b3a-dc7d-988f-fcad-5ea7f007d58a, 3170863, python, 8672",
+    "stderr": ""
+  },
+  "nvcc": {
+    "error": "[Errno 2] No such file or directory: 'nvcc'"
+  },
+  "python_environments": {
+    "/usr/bin/python3": {
+      "version": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+      "executable": "/usr/bin/python3",
+      "packages": {
+        "torch": false,
+        "gymnasium": false,
+        "ale_py": false
+      }
+    },
+    "/opt/anaconda/bin/python": {
+      "version": "3.9.12 (main, Apr  5 2022, 06:56:58) \n[GCC 7.5.0]",
+      "executable": "/opt/anaconda/bin/python",
+      "packages": {
+        "torch": false,
+        "gymnasium": false,
+        "ale_py": false
+      }
+    }
+  }
+}

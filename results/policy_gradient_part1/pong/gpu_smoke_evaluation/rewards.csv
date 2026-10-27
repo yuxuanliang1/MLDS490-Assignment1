@@ -1,0 +1,3 @@
+episode,reset_seed,reward,steps,terminated,truncated,action0_fraction
+1,7000000,-21.0,824,True,False,0.308252427184466
+2,7000001,-21.0,888,True,False,0.3277027027027027

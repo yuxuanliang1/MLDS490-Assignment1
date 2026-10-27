@@ -1,0 +1,101 @@
+{
+  "passed": true,
+  "gpu": {
+    "name": "NVIDIA GeForce RTX 2080 Ti",
+    "capability": [
+      7,
+      5
+    ],
+    "torch_cuda": "12.8",
+    "compiled_arches": [
+      "sm_70",
+      "sm_75",
+      "sm_80",
+      "sm_86",
+      "sm_90",
+      "sm_100",
+      "sm_120"
+    ]
+  },
+  "history": [
+    {
+      "episode": 1,
+      "reset_seed": 11,
+      "reward": -21.0,
+      "discounted_return": -0.8016032502281492,
+      "steps": 1067,
+      "terminated": true,
+      "truncated": false,
+      "loss_contribution": -1400.5695781707764,
+      "entropy": 0.6931416944241904,
+      "probability_action0": 0.5016518831253052,
+      "action0_fraction": 0.5032802249297095,
+      "logprob_recompute_max_error": 1.1920928955078125e-07,
+      "seconds": 7.428103569895029,
+      "gradient_norm_before_clip": 2.6199123859405518,
+      "gpu_peak_memory_bytes": 33129472
+    },
+    {
+      "episode": 2,
+      "reset_seed": 12,
+      "reward": -21.0,
+      "discounted_return": -1.675149098147841,
+      "steps": 945,
+      "terminated": true,
+      "truncated": false,
+      "loss_contribution": -1341.3253784179688,
+      "entropy": 0.6907897294513763,
+      "probability_action0": 0.4656834006309509,
+      "action0_fraction": 0.4857142857142857,
+      "logprob_recompute_max_error": 1.1920928955078125e-07,
+      "seconds": 4.105826821178198,
+      "gradient_norm_before_clip": 70.73902130126953,
+      "gpu_peak_memory_bytes": 34109440
+    }
+  ],
+  "evaluation": {
+    "episodes": 2,
+    "mean": -21.0,
+    "sample_std": 0.0,
+    "minimum": -21.0,
+    "maximum": -21.0,
+    "ci95_normal": [
+      -21.0,
+      -21.0
+    ],
+    "checkpoint": "/nfs/home/fqu0882/mlds490/releases/part1-20261026-run1/results/policy_gradient_part1/pong/gpu_full_game_smoke/latest.pt",
+    "checkpoint_sha256": "456035844c12dbddb9f324a6be746746bdc1d8ce5dcb55a8b51865ec34f54430",
+    "training_episodes": 2,
+    "training_seed": 11,
+    "evaluation_seed": 7000000,
+    "policy_mode": "stochastic",
+    "reference": null,
+    "role": "diagnostic",
+    "elapsed_seconds": 8.470456361304969,
+    "environment": {
+      "id": "ALE/Pong-v5",
+      "max_episode_steps": null,
+      "action_meanings": [
+        "NOOP",
+        "FIRE",
+        "RIGHT",
+        "LEFT",
+        "RIGHTFIRE",
+        "LEFTFIRE"
+      ],
+      "learned_action_mapping": [
+        2,
+        3
+      ],
+      "frameskip": 4,
+      "repeat_action_probability": 0.25,
+      "fire_on_reset": false,
+      "reward_clipping": false,
+      "point_return_resets": false,
+      "frame_difference": true
+    },
+    "terminated_count": 2,
+    "truncated_count": 0,
+    "action0_fraction": 0.3179775649435843
+  }
+}

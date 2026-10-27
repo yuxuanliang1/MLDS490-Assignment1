@@ -1,0 +1,88 @@
+﻿{
+  "hostname": "mlds-deepdish5",
+  "platform": "Linux-6.12.111+deb13-amd64-x86_64-with-glibc2.41",
+  "cpu_count": 48,
+  "cpu_affinity_count": 48,
+  "tools": {
+    "python": null,
+    "python3": "/usr/bin/python3",
+    "conda": null,
+    "tmux": null,
+    "screen": null,
+    "sbatch": null,
+    "srun": null,
+    "qsub": null,
+    "nvcc": null
+  },
+  "memory": {
+    "MemTotal_KiB": 98360832,
+    "MemAvailable_KiB": 78716724,
+    "SwapTotal_KiB": 100152316,
+    "SwapFree_KiB": 99966280
+  },
+  "nvidia_smi": {
+    "exit_code": 0,
+    "stdout": "Mon Oct 26 17:02:26 2026       \n+-----------------------------------------------------------------------------------------+\n| NVIDIA-SMI 615.71.09              KMD Version: 615.71.09     CUDA UMD Version: 13.4     |\n+-----------------------------------------+------------------------+----------------------+\n| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |\n| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |\n|                                         |                        |               MIG M. |\n|=========================================+========================+======================|\n|   0  NVIDIA GeForce RTX 5060 Ti     Off |   00000000:01:00.0 Off |                  N/A |\n|  0%   31C    P8              3W /  180W |       0MiB /  16311MiB |      0%      Default |\n|                                         |                        |                  N/A |\n+-----------------------------------------+------------------------+----------------------+\n|   1  NVIDIA RTX PRO 5000 Blac...    Off |   00000000:41:00.0 Off |                  Off |\n| 30%   35C    P8             13W /  300W |       0MiB /  48935MiB |      0%      Default |\n|                                         |                        |                  N/A |\n+-----------------------------------------+------------------------+----------------------+\n|   2  NVIDIA GeForce RTX 5060 Ti     Off |   00000000:42:00.0 Off |                  N/A |\n|  0%   34C    P8              5W /  180W |       0MiB /  16311MiB |      0%      Default |\n|                                         |                        |                  N/A |\n+-----------------------------------------+------------------------+----------------------+\n\n+-----------------------------------------------------------------------------------------+\n| Processes:                                                                              |\n|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |\n|        ID   ID                                                               Usage      |\n|=========================================================================================|\n|  No running processes found                                                             |\n+-----------------------------------------------------------------------------------------+",
+    "stderr": ""
+  },
+  "driver_cuda_compatibility": null,
+  "gpu_query": {
+    "exit_code": 0,
+    "stdout": "0, GPU-cef65388-88b0-f39a-6bac-c5316eb78540, NVIDIA GeForce RTX 5060 Ti, 16311, 0, 15942, 0, 615.71.09, 12.0\n1, GPU-ec0c988c-3d23-d55e-7713-293719142e7d, NVIDIA RTX PRO 5000 Blackwell, 48935, 0, 48495, 0, 615.71.09, 12.0\n2, GPU-8528ee41-76ae-d6c9-1814-60ad4ac54d68, NVIDIA GeForce RTX 5060 Ti, 16311, 0, 15933, 0, 615.71.09, 12.0",
+    "stderr": ""
+  },
+  "gpus": [
+    {
+      "index": "0",
+      "uuid": "GPU-cef65388-88b0-f39a-6bac-c5316eb78540",
+      "name": "NVIDIA GeForce RTX 5060 Ti",
+      "total_MiB": "16311",
+      "used_MiB": "0",
+      "free_MiB": "15942",
+      "utilization_percent": "0",
+      "driver": "615.71.09",
+      "compute_capability": "12.0"
+    },
+    {
+      "index": "1",
+      "uuid": "GPU-ec0c988c-3d23-d55e-7713-293719142e7d",
+      "name": "NVIDIA RTX PRO 5000 Blackwell",
+      "total_MiB": "48935",
+      "used_MiB": "0",
+      "free_MiB": "48495",
+      "utilization_percent": "0",
+      "driver": "615.71.09",
+      "compute_capability": "12.0"
+    },
+    {
+      "index": "2",
+      "uuid": "GPU-8528ee41-76ae-d6c9-1814-60ad4ac54d68",
+      "name": "NVIDIA GeForce RTX 5060 Ti",
+      "total_MiB": "16311",
+      "used_MiB": "0",
+      "free_MiB": "15933",
+      "utilization_percent": "0",
+      "driver": "615.71.09",
+      "compute_capability": "12.0"
+    }
+  ],
+  "gpu_processes": {
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  "nvcc": {
+    "error": "[Errno 2] No such file or directory: 'nvcc'"
+  },
+  "python_environments": {
+    "/usr/bin/python3": {
+      "version": "3.13.5 (main, Aug 10 2026, 12:06:59) [GCC 14.2.0]",
+      "executable": "/usr/bin/python3",
+      "packages": {
+        "torch": false,
+        "gymnasium": false,
+        "ale_py": false
+      }
+    }
+  }
+}

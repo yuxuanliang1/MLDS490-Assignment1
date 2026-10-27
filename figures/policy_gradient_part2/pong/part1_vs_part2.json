@@ -1,0 +1,36 @@
+{
+  "Part 1": {
+    "training_episodes": 1000,
+    "last100_mean": -20.65,
+    "last100_sample_std": 0.5198095999517711,
+    "mean_absolute_successive_MA100_change": 0.0062444444444450815,
+    "evaluation": {
+      "episodes": 500,
+      "mean": -20.608,
+      "sample_std": 0.6535980268953716,
+      "minimum": -21.0,
+      "maximum": -17.0,
+      "ci95_normal": [
+        -20.665290393029434,
+        -20.550709606970567
+      ]
+    }
+  },
+  "Part 2": {
+    "training_episodes": 1000,
+    "last100_mean": -20.59,
+    "last100_sample_std": 0.7398471040517342,
+    "mean_absolute_successive_MA100_change": 0.006222222222222962,
+    "evaluation": {
+      "episodes": 500,
+      "mean": -20.85,
+      "sample_std": 0.46468469280519115,
+      "minimum": -21.0,
+      "maximum": -18.0,
+      "ci95_normal": [
+        -20.89073140919967,
+        -20.809268590800333
+      ]
+    }
+  }
+}

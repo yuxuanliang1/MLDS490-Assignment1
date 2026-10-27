@@ -1,0 +1,45 @@
+{
+  "episodes": 2,
+  "mean": -21.0,
+  "sample_std": 0.0,
+  "minimum": -21.0,
+  "maximum": -21.0,
+  "ci95_normal": [
+    -21.0,
+    -21.0
+  ],
+  "checkpoint": "/nfs/home/fqu0882/mlds490/releases/part1-20261026-run1/results/policy_gradient_part1/pong/gpu_full_game_smoke/latest.pt",
+  "checkpoint_sha256": "456035844c12dbddb9f324a6be746746bdc1d8ce5dcb55a8b51865ec34f54430",
+  "training_episodes": 2,
+  "training_seed": 11,
+  "evaluation_seed": 7000000,
+  "policy_mode": "stochastic",
+  "reference": null,
+  "role": "diagnostic",
+  "elapsed_seconds": 8.470456361304969,
+  "environment": {
+    "id": "ALE/Pong-v5",
+    "max_episode_steps": null,
+    "action_meanings": [
+      "NOOP",
+      "FIRE",
+      "RIGHT",
+      "LEFT",
+      "RIGHTFIRE",
+      "LEFTFIRE"
+    ],
+    "learned_action_mapping": [
+      2,
+      3
+    ],
+    "frameskip": 4,
+    "repeat_action_probability": 0.25,
+    "fire_on_reset": false,
+    "reward_clipping": false,
+    "point_return_resets": false,
+    "frame_difference": true
+  },
+  "terminated_count": 2,
+  "truncated_count": 0,
+  "action0_fraction": 0.3179775649435843
+}

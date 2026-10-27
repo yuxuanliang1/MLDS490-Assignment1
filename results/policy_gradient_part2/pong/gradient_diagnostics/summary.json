@@ -1,0 +1,23 @@
+{
+  "environment": "ALE/Pong-v5",
+  "checkpoint": "/nfs/home/fqu0882/mlds490/releases/part2-20261026-baseline/results/policy_gradient_part2/pong/formal/latest.pt",
+  "training_seed": 11,
+  "diagnostic_seed": 4000000,
+  "calibration_episodes": 32,
+  "held_out_episodes": 32,
+  "baseline": -1.1305645631215913,
+  "baseline_source": "Frozen checkpoint EMA; no diagnostic returns used",
+  "trace_covariance_without": 1679.6099010352557,
+  "trace_covariance_with": 524.7806332716178,
+  "relative_reduction": 0.6875580258557892,
+  "mean_without_norm": 7.688977257190465,
+  "mean_with_norm": 5.965911667828768,
+  "mean_difference_norm": 2.072095884416528,
+  "paired_mean_difference_noise_scale": 3.505907798055174,
+  "secondary_calibrated_constant": -2.285341007252373,
+  "secondary_trace_covariance": 157.31916487229998,
+  "secondary_relative_reduction": 0.9063358909855594,
+  "discount_weighting": "absolute",
+  "degenerate_zero_gradient_variance": false,
+  "interpretation": "Fixed policy, paired complete trajectories. Secondary constant fitted on disjoint calibration half; not used for training. Finite-sample estimates, no universal reduction guarantee."
+}

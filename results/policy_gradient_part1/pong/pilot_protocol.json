@@ -1,0 +1,17 @@
+{
+  "stage": "CPU pilots only",
+  "episodes": 10,
+  "seed": 101,
+  "learning_rates": [
+    0.01,
+    0.003,
+    0.001
+  ],
+  "representations": [
+    "difference",
+    "raw"
+  ],
+  "reference_episodes": 30,
+  "diagnostic_checkpoint": "difference_lr_0.003/latest.pt, specified before results",
+  "selection": "No formal configuration selected from this very small pilot budget"
+}

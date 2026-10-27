@@ -1,0 +1,17 @@
+{
+  "pid": 1518229,
+  "log": "/nfs/home/fqu0882/mlds490/releases/part2-20261026-baseline/results/policy_gradient_part2/remote/formal.log",
+  "root": "/nfs/home/fqu0882/mlds490/releases/part2-20261026-baseline",
+  "command": [
+    "nohup",
+    "/nfs/home/fqu0882/.venvs/mlds490-pg-deepdish5/bin/python",
+    "-u",
+    "scripts/pong_part2_pipeline.py",
+    "--gpu",
+    "GPU-ec0c988c-3d23-d55e-7713-293719142e7d",
+    "--stage",
+    "formal"
+  ],
+  "gpu_uuid": "GPU-ec0c988c-3d23-d55e-7713-293719142e7d",
+  "persistence": "nohup, new POSIX session, closed stdin, file stdout/stderr"
+}

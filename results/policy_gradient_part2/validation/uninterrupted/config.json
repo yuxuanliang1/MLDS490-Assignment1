@@ -1,0 +1,23 @@
+{
+  "environment": "CartPole-v1",
+  "gamma": 0.95,
+  "learning_rate": 0.01,
+  "episodes": 6,
+  "batch_episodes": 2,
+  "seed": 11,
+  "device": "cpu",
+  "hidden_sizes": [
+    8
+  ],
+  "checkpoint_interval": 2,
+  "log_interval": 6,
+  "gradient_chunk_size": 256,
+  "gradient_clip": null,
+  "discount_weighting": "relative",
+  "frame_difference": true,
+  "frameskip": 4,
+  "repeat_action_probability": 0.25,
+  "fire_on_reset": false,
+  "max_episode_steps": 16,
+  "threads": 1
+}

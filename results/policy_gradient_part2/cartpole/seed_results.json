@@ -1,0 +1,182 @@
+[
+  {
+    "seed": 11,
+    "training": {
+      "completed_episodes": 1500,
+      "requested_episodes": 1500,
+      "complete": true,
+      "elapsed_this_invocation_seconds": 135.3799669000009,
+      "mean_last100": 477.04,
+      "training_seed": 11,
+      "checkpoint": "latest.pt",
+      "selection": "Fixed budget final checkpoint; no final evaluation used for selection",
+      "baseline": {
+        "kind": "ema_previous_discounted_G0",
+        "alpha": 0.05,
+        "value": 19.999995037387606,
+        "count": 1500
+      }
+    },
+    "diagnostic": {
+      "episodes": 100,
+      "mean": 498.22,
+      "sample_std": 13.056659742689309,
+      "minimum": 385.0,
+      "maximum": 500.0,
+      "ci95_normal": [
+        495.66089469043294,
+        500.7791053095671
+      ],
+      "checkpoint": "D:\\Code\\MLDS\\Assignment_1\\results\\policy_gradient_part2\\cartpole\\seed_11\\latest.pt",
+      "checkpoint_sha256": "aa113538ed8576115be30b9198e4f0ed38461155c8c74a3ec8b2cd3512e8f209",
+      "training_episodes": 1500,
+      "training_seed": 11,
+      "evaluation_seed": 2000000,
+      "policy_mode": "stochastic",
+      "reference": null,
+      "role": "diagnostic",
+      "elapsed_seconds": 15.235516500000813,
+      "environment": {
+        "id": "CartPole-v1",
+        "max_episode_steps": 500,
+        "action_meanings": [
+          "LEFT",
+          "RIGHT"
+        ],
+        "learned_action_mapping": [
+          0,
+          1
+        ],
+        "frameskip": null,
+        "repeat_action_probability": null,
+        "fire_on_reset": false,
+        "reward_clipping": false,
+        "point_return_resets": false,
+        "frame_difference": false
+      },
+      "terminated_count": 2,
+      "truncated_count": 98,
+      "action0_fraction": 0.4992124806086362
+    }
+  },
+  {
+    "seed": 22,
+    "training": {
+      "completed_episodes": 1500,
+      "requested_episodes": 1500,
+      "complete": true,
+      "elapsed_this_invocation_seconds": 173.9639449999995,
+      "mean_last100": 378.91,
+      "training_seed": 22,
+      "checkpoint": "latest.pt",
+      "selection": "Fixed budget final checkpoint; no final evaluation used for selection",
+      "baseline": {
+        "kind": "ema_previous_discounted_G0",
+        "alpha": 0.05,
+        "value": 19.99997701060038,
+        "count": 1500
+      }
+    },
+    "diagnostic": {
+      "episodes": 100,
+      "mean": 324.76,
+      "sample_std": 32.519805930813575,
+      "minimum": 269.0,
+      "maximum": 412.0,
+      "ci95_normal": [
+        318.38611803756055,
+        331.13388196243943
+      ],
+      "checkpoint": "D:\\Code\\MLDS\\Assignment_1\\results\\policy_gradient_part2\\cartpole\\seed_22\\latest.pt",
+      "checkpoint_sha256": "84b2e22b60cbaeae960ad0e986012f1e2a716e5f9a2b4700fd27fdb12ace012b",
+      "training_episodes": 1500,
+      "training_seed": 22,
+      "evaluation_seed": 2000000,
+      "policy_mode": "stochastic",
+      "reference": null,
+      "role": "diagnostic",
+      "elapsed_seconds": 12.819799500000954,
+      "environment": {
+        "id": "CartPole-v1",
+        "max_episode_steps": 500,
+        "action_meanings": [
+          "LEFT",
+          "RIGHT"
+        ],
+        "learned_action_mapping": [
+          0,
+          1
+        ],
+        "frameskip": null,
+        "repeat_action_probability": null,
+        "fire_on_reset": false,
+        "reward_clipping": false,
+        "point_return_resets": false,
+        "frame_difference": false
+      },
+      "terminated_count": 100,
+      "truncated_count": 0,
+      "action0_fraction": 0.5064254725381542
+    }
+  },
+  {
+    "seed": 33,
+    "training": {
+      "completed_episodes": 1500,
+      "requested_episodes": 1500,
+      "complete": true,
+      "elapsed_this_invocation_seconds": 111.95375860000058,
+      "mean_last100": 134.75,
+      "training_seed": 33,
+      "checkpoint": "latest.pt",
+      "selection": "Fixed budget final checkpoint; no final evaluation used for selection",
+      "baseline": {
+        "kind": "ema_previous_discounted_G0",
+        "alpha": 0.05,
+        "value": 19.850015432964028,
+        "count": 1500
+      }
+    },
+    "diagnostic": {
+      "episodes": 100,
+      "mean": 152.38,
+      "sample_std": 9.799793854768557,
+      "minimum": 131.0,
+      "maximum": 176.0,
+      "ci95_normal": [
+        150.45924040446536,
+        154.30075959553463
+      ],
+      "checkpoint": "D:\\Code\\MLDS\\Assignment_1\\results\\policy_gradient_part2\\cartpole\\seed_33\\latest.pt",
+      "checkpoint_sha256": "f64418adb59e9b5e8ec3b492fb3e877aa85cfc8ed54605b791424477f09db1b6",
+      "training_episodes": 1500,
+      "training_seed": 33,
+      "evaluation_seed": 2000000,
+      "policy_mode": "stochastic",
+      "reference": null,
+      "role": "diagnostic",
+      "elapsed_seconds": 4.988241600000038,
+      "environment": {
+        "id": "CartPole-v1",
+        "max_episode_steps": 500,
+        "action_meanings": [
+          "LEFT",
+          "RIGHT"
+        ],
+        "learned_action_mapping": [
+          0,
+          1
+        ],
+        "frameskip": null,
+        "repeat_action_probability": null,
+        "fire_on_reset": false,
+        "reward_clipping": false,
+        "point_return_resets": false,
+        "frame_difference": false
+      },
+      "terminated_count": 100,
+      "truncated_count": 0,
+      "action0_fraction": 0.5267039727582142
+    }
+  }
+]

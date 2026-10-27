@@ -1,0 +1,15 @@
+{
+  "checks": {
+    "model_identical": true,
+    "optimizer_identical": true,
+    "rng_identical": true,
+    "completed_episodes_identical": true,
+    "config_identical": true,
+    "numerical_histories_identical": true
+  },
+  "all_passed": true,
+  "max_parameter_error": 0.0,
+  "reference": "results\\policy_gradient_part1\\pong\\cpu_smoke_reference\\latest.pt",
+  "resumed": "results\\policy_gradient_part1\\pong\\cpu_smoke_resumed\\latest.pt",
+  "scope": "Same CPU/software; episode/update boundaries; time-limited smoke games"
+}

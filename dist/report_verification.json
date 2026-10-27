@@ -1,0 +1,327 @@
+{
+  "root_tex": "report/report.tex",
+  "compiled": false,
+  "evaluation_results": [
+    {
+      "part": 1,
+      "environment": "cartpole",
+      "episodes": 500,
+      "mean": 429.248,
+      "sample_std": 56.775853062564934,
+      "training_episodes": 1500,
+      "checkpoint_sha256": "fce8e815e7ecf054cf5c90105ac29f0dee7d437677aeb4028376152c3a31e4e2",
+      "truncated_count": 99
+    },
+    {
+      "part": 1,
+      "environment": "pong",
+      "episodes": 500,
+      "mean": -20.608,
+      "sample_std": 0.6535980268953716,
+      "training_episodes": 1000,
+      "checkpoint_sha256": "4821b1ce9c03903f4e81f3b58821853add472cc1d66be66bcf83adb09c0abffc",
+      "truncated_count": 0
+    },
+    {
+      "part": 2,
+      "environment": "cartpole",
+      "episodes": 500,
+      "mean": 497.282,
+      "sample_std": 19.68933253391954,
+      "training_episodes": 1500,
+      "checkpoint_sha256": "aa113538ed8576115be30b9198e4f0ed38461155c8c74a3ec8b2cd3512e8f209",
+      "truncated_count": 488
+    },
+    {
+      "part": 2,
+      "environment": "pong",
+      "episodes": 500,
+      "mean": -20.85,
+      "sample_std": 0.46468469280519115,
+      "training_episodes": 1000,
+      "checkpoint_sha256": "85e0d38f4cf7697b29ba3af04f82c302a506e604de33036dc3768242d28d6190",
+      "truncated_count": 0
+    }
+  ],
+  "pong_part2_complete": true,
+  "numerical_placeholders": [],
+  "figure_count": 26,
+  "figures": [
+    {
+      "path": "figures/policy_gradient_part1/cartpole/evaluation_histogram.png",
+      "width": 1980,
+      "height": 1260,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "sha256": "ec4949d0a9d7de59dd7f6e9e1fc6b5b6ef46ad701534cf99b27bfbf70e764c89"
+    },
+    {
+      "path": "figures/policy_gradient_part1/cartpole/sensitivity_and_seeds.png",
+      "width": 3150,
+      "height": 1200,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "sha256": "9e85ad947dae4b1e0cd083d9905aa1f47c2341976ffeaecb4d19b8ccb0120ce9"
+    },
+    {
+      "path": "figures/policy_gradient_part1/cartpole/training_rewards.png",
+      "width": 2160,
+      "height": 1260,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "sha256": "0b70767eab848be0fa9774be42fecefb64514cb81ce3ff2f4cf0b4868fab9e33"
+    },
+    {
+      "path": "figures/policy_gradient_part1/pong/evaluation_histogram.png",
+      "width": 1980,
+      "height": 1260,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "sha256": "f86ffb9c852e96cd2b70b68b0d472ae153cc6ce7543eddc79926035a124f47be"
+    },
+    {
+      "path": "figures/policy_gradient_part1/pong/training_rewards.png",
+      "width": 2160,
+      "height": 1260,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "sha256": "a3a255cba806a0304aab73c820088ab3bea09d23a00a1e8b805842f2dcdf0a96"
+    },
+    {
+      "path": "figures/policy_gradient_part2/cartpole/evaluation_histogram.png",
+      "width": 1980,
+      "height": 1260,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "sha256": "f6015ce3ec81d1bd3d5bf1a0bb523035f3b07347139c191dd6c302a2e94e0fab"
+    },
+    {
+      "path": "figures/policy_gradient_part2/cartpole/gradient_variance.png",
+      "width": 1920,
+      "height": 1200,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "sha256": "3dc88c3e2f729ab4d49e33c31f158229c0ddaf93bf5025e3b92129522221b6eb"
+    },
+    {
+      "path": "figures/policy_gradient_part2/cartpole/part1_vs_part2.png",
+      "width": 3150,
+      "height": 1200,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "sha256": "66e37f3b088fa04408f29ae7e67d166e793a55747ab5880a82954b28defa3980"
+    },
+    {
+      "path": "figures/policy_gradient_part2/cartpole/training_rewards.png",
+      "width": 2160,
+      "height": 1260,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "sha256": "a11a7143ca21c238d065dee8b483669f276085ea0657955c561be0868a89d602"
+    },
+    {
+      "path": "figures/policy_gradient_part2/cartpole/training_seeds.png",
+      "width": 2160,
+      "height": 1260,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "sha256": "27482e4ce3c1f951711a6b842ea5732613325dff6eb6a256744148b6f89fab19"
+    },
+    {
+      "path": "figures/policy_gradient_part2/pong/evaluation_histogram.png",
+      "width": 1980,
+      "height": 1260,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "sha256": "09c1fdb40aecd56033b5d062052e5b948b68d338d01bdf1ec2dd679745cc3357"
+    },
+    {
+      "path": "figures/policy_gradient_part2/pong/gradient_variance.png",
+      "width": 1920,
+      "height": 1200,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "sha256": "d1675bc3cb2096f94c0d5887dffaea3336c0223efa499912969f46612fd36ca2"
+    },
+    {
+      "path": "figures/policy_gradient_part2/pong/part1_vs_part2.png",
+      "width": 3150,
+      "height": 1200,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "sha256": "7dfcf85f4454f06eda8aebc96c51c850059c04650366d654598072b38b07e3ca"
+    },
+    {
+      "path": "figures/policy_gradient_part2/pong/training_rewards.png",
+      "width": 2160,
+      "height": 1260,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "sha256": "145ecf5db179c0154c1b45a6ef61c4ad8ea8c509a0c248ca409c6942c1662bce"
+    },
+    {
+      "path": "figures/policy_gradient_part2/synthetic_gradient_variance.png",
+      "width": 1920,
+      "height": 1200,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "sha256": "daef5db378eddded5dce8a10093db07175d326b0a1842de03aa05cd94c8d248f"
+    },
+    {
+      "path": "figures/value_policy_iteration/action_value_gap.png",
+      "width": 3034,
+      "height": 1234,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "sha256": "6183d8633d73a8ffd249e592a479fd25f1c92feae418f7e0600694670046d110"
+    },
+    {
+      "path": "figures/value_policy_iteration/cost_sensitivity.png",
+      "width": 3333,
+      "height": 1384,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "sha256": "28e44ed069f41ba59fdba5cf934438c0a535e29c4ddd788e3aea7c04f363ceef"
+    },
+    {
+      "path": "figures/value_policy_iteration/deterministic_arrivals.png",
+      "width": 3333,
+      "height": 1384,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "sha256": "89330434391444c33857d8f7e8163115eb3b0bcaef121c5b86bd9941a0b2cf42"
+    },
+    {
+      "path": "figures/value_policy_iteration/discount_sensitivity.png",
+      "width": 3333,
+      "height": 1384,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "sha256": "66b70a7dfa6aa85401c432fed70cc1e697ed280def1ca739e7545de1be55bf62"
+    },
+    {
+      "path": "figures/value_policy_iteration/finite_horizon_value.png",
+      "width": 2434,
+      "height": 1384,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "sha256": "6900778326e00b7d6a76ed7d921c6d147c98c168ea89653ce33d96245b9f563b"
+    },
+    {
+      "path": "figures/value_policy_iteration/horizon_error.png",
+      "width": 2434,
+      "height": 1384,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "sha256": "47ff3416c05da0a3ac9e00c219158d5d226dbf1f8aea50084b1f01bf77287c40"
+    },
+    {
+      "path": "figures/value_policy_iteration/infinite_horizon_value.png",
+      "width": 2434,
+      "height": 1384,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "sha256": "20294842de123fa000315b009c1df12784ba0034b0a7a16b04e0833aff0ec1d2"
+    },
+    {
+      "path": "figures/value_policy_iteration/monte_carlo_validation.png",
+      "width": 3034,
+      "height": 2134,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "sha256": "ff1b4e07a07813575dba7a6c998862686e2b7f94718c3dc18e2c686e57ddbc6c"
+    },
+    {
+      "path": "figures/value_policy_iteration/optimal_policy.png",
+      "width": 2434,
+      "height": 1234,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "sha256": "5ff6a994d28dcbb3938ed39e749e00a2b49148ae6ed094726683f80a3a702729"
+    },
+    {
+      "path": "figures/value_policy_iteration/vi_convergence.png",
+      "width": 2434,
+      "height": 1384,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "sha256": "fae16a082a97c0c3b30f2bccbd7b5566c74bcdff65b5ce8f5acc45f47951c562"
+    },
+    {
+      "path": "figures/value_policy_iteration/vi_pi_comparison.png",
+      "width": 3034,
+      "height": 1234,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "sha256": "533f60557d17609518b236f76b0329863436ee1510f1f128b0c86e1f2a88038a"
+    }
+  ],
+  "tex_files": 11,
+  "labels": 44,
+  "bibliography_entries": 2,
+  "preservation": {
+    "checked_files": 541,
+    "all_unchanged": true
+  },
+  "zip": "dist\\MLDS490_Assignment1_Overleaf.zip",
+  "manual_fields": [
+    "Student name",
+    "Student ID",
+    "GitHub username",
+    "Repository name",
+    "Repository URL"
+  ],
+  "limitation": "Static validation only; PDF page layout and font rendering require Overleaf compilation."
+}

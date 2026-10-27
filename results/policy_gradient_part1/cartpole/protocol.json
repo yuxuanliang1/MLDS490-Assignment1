@@ -1,0 +1,23 @@
+{
+  "pilot_seed": 101,
+  "pilot_learning_rates": [
+    0.01,
+    0.003,
+    0.001
+  ],
+  "pilot_episodes": 300,
+  "formal_episodes": 1500,
+  "selection": "Largest trailing-100 training mean in equal-budget pilots; tie chooses larger LR",
+  "primary_training_seed": 11,
+  "other_training_seeds": [
+    22,
+    33
+  ],
+  "primary_checkpoint": "Fixed-budget final checkpoint of seed 11; chosen before evaluation",
+  "final_evaluation_episodes": 500,
+  "final_evaluation_seed": 1000000,
+  "robustness_evaluation_episodes": 100,
+  "robustness_evaluation_seed": 2000000,
+  "formal_budget_reason": "Five times pilot duration to test sustained improvement and instability",
+  "no_baseline": true
+}

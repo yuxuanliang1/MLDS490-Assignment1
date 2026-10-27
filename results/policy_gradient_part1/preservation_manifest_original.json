@@ -1,0 +1,170 @@
+﻿[
+    {
+        "Path":  "D:\\Code\\MLDS\\Assignment_1\\value_policy_iteration\\algorithms.py",
+        "Hash":  "7FD1AC4010F75C4BC1BF4CFF963EE636D6907BF01BA2D0C6837C03176588D9FC"
+    },
+    {
+        "Path":  "D:\\Code\\MLDS\\Assignment_1\\value_policy_iteration\\experiments.py",
+        "Hash":  "445E898BB92DE2E414FE98196CE5497054B0BA2DF771814849F3831BF9BE11B7"
+    },
+    {
+        "Path":  "D:\\Code\\MLDS\\Assignment_1\\value_policy_iteration\\mdp.py",
+        "Hash":  "0B6D128880D1B8BC141A80F0476CF1ECDE53B9D41FBA163E1AA9B4BADC5065E5"
+    },
+    {
+        "Path":  "D:\\Code\\MLDS\\Assignment_1\\value_policy_iteration\\plots.py",
+        "Hash":  "51950C1B047D0209BB1A8CED95843912F118D8D5F3265FE03A3BE5BE5244696B"
+    },
+    {
+        "Path":  "D:\\Code\\MLDS\\Assignment_1\\value_policy_iteration\\reporting.py",
+        "Hash":  "14F6BA2394EA68658951D5E93E7FCE122DCC99E34FAE3686CB603A1DC13D1AE1"
+    },
+    {
+        "Path":  "D:\\Code\\MLDS\\Assignment_1\\value_policy_iteration\\validation.py",
+        "Hash":  "C6C38C5FC82353CBBA4A11E147E63B4640A71E357025DF6BA8469F0ED54D62A0"
+    },
+    {
+        "Path":  "D:\\Code\\MLDS\\Assignment_1\\value_policy_iteration\\__init__.py",
+        "Hash":  "DEF958C6A7443ABA33E38A7ACCF4E8DA1906D766B9285D77BA215CE96B4EBDE4"
+    },
+    {
+        "Path":  "D:\\Code\\MLDS\\Assignment_1\\value_policy_iteration\\__pycache__\\algorithms.cpython-311.pyc",
+        "Hash":  "17CB629BCF73303F1160CF53D1EB41B1CAE5288B305151D687FAECD601936791"
+    },
+    {
+        "Path":  "D:\\Code\\MLDS\\Assignment_1\\value_policy_iteration\\__pycache__\\experiments.cpython-311.pyc",
+        "Hash":  "46650F1E0DFA9FBBDC346BE59495CA932DDAB44E5C14C77F5A1C40D6FF135935"
+    },
+    {
+        "Path":  "D:\\Code\\MLDS\\Assignment_1\\value_policy_iteration\\__pycache__\\mdp.cpython-311.pyc",
+        "Hash":  "948CAD0688833A028DA1605113147EFCB0EC7D308D96445AD4E6A9B2E5B01A6A"
+    },
+    {
+        "Path":  "D:\\Code\\MLDS\\Assignment_1\\value_policy_iteration\\__pycache__\\plots.cpython-311.pyc",
+        "Hash":  "FF18673B3BA88919B31F5F9A13A4475618D5A0D4814B6BDADC780491E938DD82"
+    },
+    {
+        "Path":  "D:\\Code\\MLDS\\Assignment_1\\value_policy_iteration\\__pycache__\\reporting.cpython-311.pyc",
+        "Hash":  "743504BB78AC34C239EB36937B20ED71ACDD76DDB9AA892656FC21A389DF8782"
+    },
+    {
+        "Path":  "D:\\Code\\MLDS\\Assignment_1\\value_policy_iteration\\__pycache__\\validation.cpython-311.pyc",
+        "Hash":  "2DC5B0A231B018802A0CB678CEA7E7EA9C158C7F982F8DF60E19466A93340A96"
+    },
+    {
+        "Path":  "D:\\Code\\MLDS\\Assignment_1\\value_policy_iteration\\__pycache__\\__init__.cpython-311.pyc",
+        "Hash":  "79302724125B6DA168206F74EEEB0C00D65F16C5AB5E80B2844446362459B589"
+    },
+    {
+        "Path":  "D:\\Code\\MLDS\\Assignment_1\\results\\value_policy_iteration\\cost_sensitivity.csv",
+        "Hash":  "D5E13218967739C4644AE7F018AF14BE8DFD1C96EF8441BCECEAC4582505B19B"
+    },
+    {
+        "Path":  "D:\\Code\\MLDS\\Assignment_1\\results\\value_policy_iteration\\deterministic_arrivals.csv",
+        "Hash":  "F1C6BC8ED96DD0695FA5DF6E2357CCAB1305778412CD58164AA7764141EECAA1"
+    },
+    {
+        "Path":  "D:\\Code\\MLDS\\Assignment_1\\results\\value_policy_iteration\\deterministic_trajectory.csv",
+        "Hash":  "C1FC8CA078F51FDA61C8B0A789C4EA4D46B46DE475BC7588C557E6BC0CA6DB6F"
+    },
+    {
+        "Path":  "D:\\Code\\MLDS\\Assignment_1\\results\\value_policy_iteration\\discount_sensitivity.csv",
+        "Hash":  "A38B2DE9F8BF44BC9CA9A5EE1F18487E06728564F6E30B689BA131D8A17ADA7B"
+    },
+    {
+        "Path":  "D:\\Code\\MLDS\\Assignment_1\\results\\value_policy_iteration\\edge_cases.csv",
+        "Hash":  "4C61D4958B1C978A032C94EA016B0BB393ED063D96265F81A43A38A818758B03"
+    },
+    {
+        "Path":  "D:\\Code\\MLDS\\Assignment_1\\results\\value_policy_iteration\\exhaustive_policies.csv",
+        "Hash":  "2A5D4BC81C50614E690800ECF4AAA34E28E07A8B049A6119F9C2746C5848CA53"
+    },
+    {
+        "Path":  "D:\\Code\\MLDS\\Assignment_1\\results\\value_policy_iteration\\horizon_validation.csv",
+        "Hash":  "BAC4395221C28A15929DF73AB6C00735D511AEE6DA08E27C11D7CA53817EFB8C"
+    },
+    {
+        "Path":  "D:\\Code\\MLDS\\Assignment_1\\results\\value_policy_iteration\\monte_carlo.csv",
+        "Hash":  "EF551CC5612A1C4A55E6FAF00A0BE0C54FF29476F322194FBF870E4BA9C425DC"
+    },
+    {
+        "Path":  "D:\\Code\\MLDS\\Assignment_1\\results\\value_policy_iteration\\pi_convergence.csv",
+        "Hash":  "3CC88589D6A91F5F18215ADCFC505DD028E877C976053C1B38F02FDEDAE4DEA1"
+    },
+    {
+        "Path":  "D:\\Code\\MLDS\\Assignment_1\\results\\value_policy_iteration\\sensitivity_solutions.npz",
+        "Hash":  "C508FD6037E5B192C1080B72AD3BBF1731A54C1A96D9A037F17BA61743203FFD"
+    },
+    {
+        "Path":  "D:\\Code\\MLDS\\Assignment_1\\results\\value_policy_iteration\\solutions.npz",
+        "Hash":  "582D71A5D413169E784D3925DCDA1BAB5AB559355D863F98D1333160EACC9A06"
+    },
+    {
+        "Path":  "D:\\Code\\MLDS\\Assignment_1\\results\\value_policy_iteration\\state_results.csv",
+        "Hash":  "4EE2F3A91D2A9E984F38039CCEE8E87EAC38B8EE253F7267EC989F6C484B43BB"
+    },
+    {
+        "Path":  "D:\\Code\\MLDS\\Assignment_1\\results\\value_policy_iteration\\summary.json",
+        "Hash":  "2A298E48ECF253C3DF894ACEAE8FCBC06B1B5778AF269D8D6B6F2699D79E0531"
+    },
+    {
+        "Path":  "D:\\Code\\MLDS\\Assignment_1\\results\\value_policy_iteration\\tolerance_sensitivity.csv",
+        "Hash":  "A63ED36F4964472F792306D4DDB8226EA6DA6EE25A26F4130D253755215C1CE7"
+    },
+    {
+        "Path":  "D:\\Code\\MLDS\\Assignment_1\\results\\value_policy_iteration\\vi_convergence.csv",
+        "Hash":  "500E8B6D18A7BB691A8A44286B4A35EF97B83DE7139A694387DB656CE32F9986"
+    },
+    {
+        "Path":  "D:\\Code\\MLDS\\Assignment_1\\figures\\value_policy_iteration\\action_value_gap.png",
+        "Hash":  "6183D8633D73A8FFD249E592A479FD25F1C92FEAE418F7E0600694670046D110"
+    },
+    {
+        "Path":  "D:\\Code\\MLDS\\Assignment_1\\figures\\value_policy_iteration\\cost_sensitivity.png",
+        "Hash":  "28E44ED069F41BA59FDBA5CF934438C0A535E29C4DDD788E3AEA7C04F363CEEF"
+    },
+    {
+        "Path":  "D:\\Code\\MLDS\\Assignment_1\\figures\\value_policy_iteration\\deterministic_arrivals.png",
+        "Hash":  "89330434391444C33857D8F7E8163115EB3B0BCAEF121C5B86BD9941A0B2CF42"
+    },
+    {
+        "Path":  "D:\\Code\\MLDS\\Assignment_1\\figures\\value_policy_iteration\\discount_sensitivity.png",
+        "Hash":  "66B70A7DFA6AA85401C432FED70CC1E697ED280DEF1CA739E7545DE1BE55BF62"
+    },
+    {
+        "Path":  "D:\\Code\\MLDS\\Assignment_1\\figures\\value_policy_iteration\\finite_horizon_value.png",
+        "Hash":  "6900778326E00B7D6A76ED7D921C6D147C98C168EA89653CE33D96245B9F563B"
+    },
+    {
+        "Path":  "D:\\Code\\MLDS\\Assignment_1\\figures\\value_policy_iteration\\horizon_error.png",
+        "Hash":  "47FF3416C05DA0A3AC9E00C219158D5D226DBF1F8AEA50084B1F01BF77287C40"
+    },
+    {
+        "Path":  "D:\\Code\\MLDS\\Assignment_1\\figures\\value_policy_iteration\\infinite_horizon_value.png",
+        "Hash":  "20294842DE123FA000315B009C1DF12784BA0034B0A7A16B04E0833AFF0EC1D2"
+    },
+    {
+        "Path":  "D:\\Code\\MLDS\\Assignment_1\\figures\\value_policy_iteration\\monte_carlo_validation.png",
+        "Hash":  "FF1B4E07A07813575DBA7A6C998862686E2B7F94718C3DC18E2C686E57DDBC6C"
+    },
+    {
+        "Path":  "D:\\Code\\MLDS\\Assignment_1\\figures\\value_policy_iteration\\optimal_policy.png",
+        "Hash":  "5FF6A994D28DCBB3938ED39E749E00A2B49148AE6ED094726683F80A3A702729"
+    },
+    {
+        "Path":  "D:\\Code\\MLDS\\Assignment_1\\figures\\value_policy_iteration\\vi_convergence.png",
+        "Hash":  "FAE16A082A97C0C3B30F2BCCBD7B5566C74BCDFF65B5CE8F5ACC45F47951C562"
+    },
+    {
+        "Path":  "D:\\Code\\MLDS\\Assignment_1\\figures\\value_policy_iteration\\vi_pi_comparison.png",
+        "Hash":  "533F60557D17609518B236F76B0329863436EE1510F1F128B0C86E1F2A88038A"
+    },
+    {
+        "Path":  "D:\\Code\\MLDS\\Assignment_1\\report\\sections\\value_policy.tex",
+        "Hash":  "8E01037BC8A8383C9B30EDD7495CD5ED2D779B97CC6E376A9E0B3C1844C545EB"
+    },
+    {
+        "Path":  "D:\\Code\\MLDS\\Assignment_1\\report\\sections\\value_policy_results.tex",
+        "Hash":  "EEC66004145259FCE0CE876C3406B5CC1D533AED3ADCCECD61E52B6221F086ED"
+    }
+]

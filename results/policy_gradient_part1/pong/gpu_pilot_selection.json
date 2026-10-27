@@ -1,0 +1,54 @@
+{
+  "pilots": [
+    {
+      "learning_rate": 0.01,
+      "entropy_last10": 0.6895277363987515,
+      "action0_last10": 0.45816964920394804,
+      "mean_last20": -20.5,
+      "eligible": true,
+      "completed_episodes": 30,
+      "requested_episodes": 30,
+      "complete": true,
+      "elapsed_this_invocation_seconds": 116.22634233813733,
+      "mean_last100": -20.433333333333334,
+      "training_seed": 101,
+      "checkpoint": "latest.pt",
+      "selection": "Fixed budget final checkpoint; no final evaluation used for selection"
+    },
+    {
+      "learning_rate": 0.003,
+      "entropy_last10": 0.6804745468996359,
+      "action0_last10": 0.42154269025450264,
+      "mean_last20": -20.7,
+      "eligible": true,
+      "completed_episodes": 30,
+      "requested_episodes": 30,
+      "complete": true,
+      "elapsed_this_invocation_seconds": 121.96281806286424,
+      "mean_last100": -20.466666666666665,
+      "training_seed": 101,
+      "checkpoint": "latest.pt",
+      "selection": "Fixed budget final checkpoint; no final evaluation used for selection"
+    },
+    {
+      "learning_rate": 0.001,
+      "entropy_last10": 0.6888528994538642,
+      "action0_last10": 0.4596767162458891,
+      "mean_last20": -20.35,
+      "eligible": true,
+      "completed_episodes": 30,
+      "requested_episodes": 30,
+      "complete": true,
+      "elapsed_this_invocation_seconds": 126.19658087519929,
+      "mean_last100": -20.333333333333332,
+      "training_seed": 101,
+      "checkpoint": "latest.pt",
+      "selection": "Fixed budget final checkpoint; no final evaluation used for selection"
+    }
+  ],
+  "selected_learning_rate": 0.001,
+  "all_pilots_collapsed": false,
+  "measured_mean_seconds_per_pilot_episode": 4.048730458624454,
+  "estimated_formal_seconds": 0.0,
+  "criterion": "Prefer pilots with final-10 mean entropy >=0.1 and action0 fraction in [0.05,0.95]; among those maximize last-20 training mean, breaking ties toward smaller learning rate. If all collapse, use the smallest rate and label instability."
+}

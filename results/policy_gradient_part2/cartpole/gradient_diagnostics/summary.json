@@ -1,0 +1,23 @@
+{
+  "environment": "CartPole-v1",
+  "checkpoint": "D:\\Code\\MLDS\\Assignment_1\\results\\policy_gradient_part2\\cartpole\\seed_11\\latest.pt",
+  "training_seed": 11,
+  "diagnostic_seed": 4000000,
+  "calibration_episodes": 32,
+  "held_out_episodes": 32,
+  "baseline": 19.999995037387606,
+  "baseline_source": "Frozen checkpoint EMA; no diagnostic returns used",
+  "trace_covariance_without": 1920756.366567874,
+  "trace_covariance_with": 44981.78771029081,
+  "relative_reduction": 0.9765812111867852,
+  "mean_without_norm": 221.1735406475747,
+  "mean_with_norm": 34.317427175295094,
+  "mean_difference_norm": 242.17630381281725,
+  "paired_mean_difference_noise_scale": 247.4723113467053,
+  "secondary_calibrated_constant": 18.515638368925615,
+  "secondary_trace_covariance": 49543.39697457183,
+  "secondary_relative_reduction": 0.9742063085996174,
+  "discount_weighting": "relative",
+  "degenerate_zero_gradient_variance": false,
+  "interpretation": "Fixed policy, paired complete trajectories. Secondary constant fitted on disjoint calibration half; not used for training. Finite-sample estimates, no universal reduction guarantee."
+}

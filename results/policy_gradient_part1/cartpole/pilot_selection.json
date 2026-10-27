@@ -1,0 +1,39 @@
+{
+  "pilots": [
+    {
+      "learning_rate": 0.01,
+      "completed_episodes": 300,
+      "requested_episodes": 300,
+      "complete": true,
+      "elapsed_this_invocation_seconds": 5.22782720000032,
+      "mean_last100": 49.45,
+      "training_seed": 101,
+      "checkpoint": "latest.pt",
+      "selection": "Fixed budget final checkpoint; no final evaluation used for selection"
+    },
+    {
+      "learning_rate": 0.003,
+      "completed_episodes": 300,
+      "requested_episodes": 300,
+      "complete": true,
+      "elapsed_this_invocation_seconds": 5.329771000000164,
+      "mean_last100": 82.96,
+      "training_seed": 101,
+      "checkpoint": "latest.pt",
+      "selection": "Fixed budget final checkpoint; no final evaluation used for selection"
+    },
+    {
+      "learning_rate": 0.001,
+      "completed_episodes": 300,
+      "requested_episodes": 300,
+      "complete": true,
+      "elapsed_this_invocation_seconds": 2.9024156000000403,
+      "mean_last100": 43.91,
+      "training_seed": 101,
+      "checkpoint": "latest.pt",
+      "selection": "Fixed budget final checkpoint; no final evaluation used for selection"
+    }
+  ],
+  "selected_learning_rate": 0.003,
+  "criterion": "Largest trailing-100 training mean in equal-budget pilots; tie chooses larger LR"
+}

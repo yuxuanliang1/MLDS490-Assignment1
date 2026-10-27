@@ -1,0 +1,23 @@
+{
+  "environment": "ALE/Pong-v5",
+  "gamma": 0.99,
+  "learning_rate": 0.01,
+  "episodes": 2,
+  "batch_episodes": 1,
+  "seed": 11,
+  "device": "cuda:0",
+  "hidden_sizes": [
+    128,
+    128
+  ],
+  "checkpoint_interval": 1,
+  "log_interval": 1,
+  "gradient_chunk_size": 256,
+  "gradient_clip": null,
+  "frame_difference": true,
+  "frameskip": 4,
+  "repeat_action_probability": 0.25,
+  "fire_on_reset": false,
+  "max_episode_steps": null,
+  "threads": 1
+}

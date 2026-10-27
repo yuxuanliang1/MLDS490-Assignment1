@@ -1,0 +1,313 @@
+{
+  "all_available_checks_passed": true,
+  "checks": {
+    "component1_unchanged": true,
+    "results/policy_gradient_part1/cartpole/evaluation/rewards.csv_statistics": true,
+    "results/policy_gradient_part1/cartpole/evaluation/rewards.csv_ended_episodes": true,
+    "results/policy_gradient_part1/cartpole/evaluation/rewards.csv_ending_counts": true,
+    "results/policy_gradient_part1/cartpole/evaluation/rewards.csv_cartpole_reward_equals_steps": true,
+    "results/policy_gradient_part1/cartpole/evaluation/rewards.csv_500_episodes": true,
+    "results/policy_gradient_part1/cartpole/random_reference/rewards.csv_statistics": true,
+    "results/policy_gradient_part1/cartpole/random_reference/rewards.csv_ended_episodes": true,
+    "results/policy_gradient_part1/cartpole/random_reference/rewards.csv_ending_counts": true,
+    "results/policy_gradient_part1/cartpole/random_reference/rewards.csv_cartpole_reward_equals_steps": true,
+    "results/policy_gradient_part1/cartpole/seed_11/validation/rewards.csv_statistics": true,
+    "results/policy_gradient_part1/cartpole/seed_11/validation/rewards.csv_ended_episodes": true,
+    "results/policy_gradient_part1/cartpole/seed_11/validation/rewards.csv_ending_counts": true,
+    "results/policy_gradient_part1/cartpole/seed_11/validation/rewards.csv_cartpole_reward_equals_steps": true,
+    "results/policy_gradient_part1/cartpole/seed_22/validation/rewards.csv_statistics": true,
+    "results/policy_gradient_part1/cartpole/seed_22/validation/rewards.csv_ended_episodes": true,
+    "results/policy_gradient_part1/cartpole/seed_22/validation/rewards.csv_ending_counts": true,
+    "results/policy_gradient_part1/cartpole/seed_22/validation/rewards.csv_cartpole_reward_equals_steps": true,
+    "results/policy_gradient_part1/cartpole/seed_33/validation/rewards.csv_statistics": true,
+    "results/policy_gradient_part1/cartpole/seed_33/validation/rewards.csv_ended_episodes": true,
+    "results/policy_gradient_part1/cartpole/seed_33/validation/rewards.csv_ending_counts": true,
+    "results/policy_gradient_part1/cartpole/seed_33/validation/rewards.csv_cartpole_reward_equals_steps": true,
+    "results/policy_gradient_part1/pong/diagnostics/fixed/rewards.csv_statistics": true,
+    "results/policy_gradient_part1/pong/diagnostics/fixed/rewards.csv_ended_episodes": true,
+    "results/policy_gradient_part1/pong/diagnostics/fixed/rewards.csv_ending_counts": true,
+    "results/policy_gradient_part1/pong/diagnostics/pilot_policy/rewards.csv_statistics": true,
+    "results/policy_gradient_part1/pong/diagnostics/pilot_policy/rewards.csv_ended_episodes": true,
+    "results/policy_gradient_part1/pong/diagnostics/pilot_policy/rewards.csv_ending_counts": true,
+    "results/policy_gradient_part1/pong/diagnostics/random/rewards.csv_statistics": true,
+    "results/policy_gradient_part1/pong/diagnostics/random/rewards.csv_ended_episodes": true,
+    "results/policy_gradient_part1/pong/diagnostics/random/rewards.csv_ending_counts": true,
+    "results/policy_gradient_part1/pong/evaluation/rewards.csv_statistics": true,
+    "results/policy_gradient_part1/pong/evaluation/rewards.csv_ended_episodes": true,
+    "results/policy_gradient_part1/pong/evaluation/rewards.csv_ending_counts": true,
+    "results/policy_gradient_part1/pong/evaluation/rewards.csv_500_episodes": true,
+    "results/policy_gradient_part1/pong/evaluation/rewards.csv_complete_pong_games": true,
+    "results/policy_gradient_part1/pong/gpu_smoke_evaluation/rewards.csv_statistics": true,
+    "results/policy_gradient_part1/pong/gpu_smoke_evaluation/rewards.csv_ended_episodes": true,
+    "results/policy_gradient_part1/pong/gpu_smoke_evaluation/rewards.csv_ending_counts": true,
+    "results/policy_gradient_part1/cartpole/pilots/lr_0.001/latest.pt_count": true,
+    "results/policy_gradient_part1/cartpole/pilots/lr_0.001/latest.pt_finite": true,
+    "results/policy_gradient_part1/cartpole/pilots/lr_0.001/latest.pt_on_policy_recomputation": true,
+    "results/policy_gradient_part1/cartpole/pilots/lr_0.003/latest.pt_count": true,
+    "results/policy_gradient_part1/cartpole/pilots/lr_0.003/latest.pt_finite": true,
+    "results/policy_gradient_part1/cartpole/pilots/lr_0.003/latest.pt_on_policy_recomputation": true,
+    "results/policy_gradient_part1/cartpole/pilots/lr_0.01/latest.pt_count": true,
+    "results/policy_gradient_part1/cartpole/pilots/lr_0.01/latest.pt_finite": true,
+    "results/policy_gradient_part1/cartpole/pilots/lr_0.01/latest.pt_on_policy_recomputation": true,
+    "results/policy_gradient_part1/cartpole/seed_11/latest.pt_count": true,
+    "results/policy_gradient_part1/cartpole/seed_11/latest.pt_finite": true,
+    "results/policy_gradient_part1/cartpole/seed_11/latest.pt_on_policy_recomputation": true,
+    "results/policy_gradient_part1/cartpole/seed_22/latest.pt_count": true,
+    "results/policy_gradient_part1/cartpole/seed_22/latest.pt_finite": true,
+    "results/policy_gradient_part1/cartpole/seed_22/latest.pt_on_policy_recomputation": true,
+    "results/policy_gradient_part1/cartpole/seed_33/latest.pt_count": true,
+    "results/policy_gradient_part1/cartpole/seed_33/latest.pt_finite": true,
+    "results/policy_gradient_part1/cartpole/seed_33/latest.pt_on_policy_recomputation": true,
+    "results/policy_gradient_part1/cartpole_openmp_aborted/pilots/lr_0.01/latest.pt_count": true,
+    "results/policy_gradient_part1/cartpole_openmp_aborted/pilots/lr_0.01/latest.pt_finite": true,
+    "results/policy_gradient_part1/cartpole_openmp_aborted/pilots/lr_0.01/latest.pt_on_policy_recomputation": true,
+    "results/policy_gradient_part1/pong/absolute_cpu_smoke/latest.pt_count": true,
+    "results/policy_gradient_part1/pong/absolute_cpu_smoke/latest.pt_finite": true,
+    "results/policy_gradient_part1/pong/absolute_cpu_smoke/latest.pt_on_policy_recomputation": true,
+    "results/policy_gradient_part1/pong/cpu_smoke/latest.pt_count": true,
+    "results/policy_gradient_part1/pong/cpu_smoke/latest.pt_finite": true,
+    "results/policy_gradient_part1/pong/cpu_smoke/latest.pt_on_policy_recomputation": true,
+    "results/policy_gradient_part1/pong/cpu_smoke_reference/latest.pt_count": true,
+    "results/policy_gradient_part1/pong/cpu_smoke_reference/latest.pt_finite": true,
+    "results/policy_gradient_part1/pong/cpu_smoke_reference/latest.pt_on_policy_recomputation": true,
+    "results/policy_gradient_part1/pong/cpu_smoke_resumed/latest.pt_count": true,
+    "results/policy_gradient_part1/pong/cpu_smoke_resumed/latest.pt_finite": true,
+    "results/policy_gradient_part1/pong/cpu_smoke_resumed/latest.pt_on_policy_recomputation": true,
+    "results/policy_gradient_part1/pong/formal/latest.pt_count": true,
+    "results/policy_gradient_part1/pong/formal/latest.pt_finite": true,
+    "results/policy_gradient_part1/pong/formal/latest.pt_on_policy_recomputation": true,
+    "results/policy_gradient_part1/pong/gpu_full_game_smoke/latest.pt_count": true,
+    "results/policy_gradient_part1/pong/gpu_full_game_smoke/latest.pt_finite": true,
+    "results/policy_gradient_part1/pong/gpu_full_game_smoke/latest.pt_on_policy_recomputation": true,
+    "results/policy_gradient_part1/pong/gpu_pilots/lr_0.001/latest.pt_count": true,
+    "results/policy_gradient_part1/pong/gpu_pilots/lr_0.001/latest.pt_finite": true,
+    "results/policy_gradient_part1/pong/gpu_pilots/lr_0.001/latest.pt_on_policy_recomputation": true,
+    "results/policy_gradient_part1/pong/gpu_pilots/lr_0.003/latest.pt_count": true,
+    "results/policy_gradient_part1/pong/gpu_pilots/lr_0.003/latest.pt_finite": true,
+    "results/policy_gradient_part1/pong/gpu_pilots/lr_0.003/latest.pt_on_policy_recomputation": true,
+    "results/policy_gradient_part1/pong/gpu_pilots/lr_0.01/latest.pt_count": true,
+    "results/policy_gradient_part1/pong/gpu_pilots/lr_0.01/latest.pt_finite": true,
+    "results/policy_gradient_part1/pong/gpu_pilots/lr_0.01/latest.pt_on_policy_recomputation": true,
+    "results/policy_gradient_part1/pong/gpu_smoke/latest.pt_count": true,
+    "results/policy_gradient_part1/pong/gpu_smoke/latest.pt_finite": true,
+    "results/policy_gradient_part1/pong/gpu_smoke/latest.pt_on_policy_recomputation": true,
+    "results/policy_gradient_part1/pong/pilots/difference_lr_0.001/latest.pt_count": true,
+    "results/policy_gradient_part1/pong/pilots/difference_lr_0.001/latest.pt_finite": true,
+    "results/policy_gradient_part1/pong/pilots/difference_lr_0.001/latest.pt_on_policy_recomputation": true,
+    "results/policy_gradient_part1/pong/pilots/difference_lr_0.003/latest.pt_count": true,
+    "results/policy_gradient_part1/pong/pilots/difference_lr_0.003/latest.pt_finite": true,
+    "results/policy_gradient_part1/pong/pilots/difference_lr_0.003/latest.pt_on_policy_recomputation": true,
+    "results/policy_gradient_part1/pong/pilots/difference_lr_0.01/latest.pt_count": true,
+    "results/policy_gradient_part1/pong/pilots/difference_lr_0.01/latest.pt_finite": true,
+    "results/policy_gradient_part1/pong/pilots/difference_lr_0.01/latest.pt_on_policy_recomputation": true,
+    "results/policy_gradient_part1/pong/pilots/raw_lr_0.001/latest.pt_count": true,
+    "results/policy_gradient_part1/pong/pilots/raw_lr_0.001/latest.pt_finite": true,
+    "results/policy_gradient_part1/pong/pilots/raw_lr_0.001/latest.pt_on_policy_recomputation": true,
+    "results/policy_gradient_part1/pong/pilots/raw_lr_0.003/latest.pt_count": true,
+    "results/policy_gradient_part1/pong/pilots/raw_lr_0.003/latest.pt_finite": true,
+    "results/policy_gradient_part1/pong/pilots/raw_lr_0.003/latest.pt_on_policy_recomputation": true,
+    "results/policy_gradient_part1/pong/pilots/raw_lr_0.01/latest.pt_count": true,
+    "results/policy_gradient_part1/pong/pilots/raw_lr_0.01/latest.pt_finite": true,
+    "results/policy_gradient_part1/pong/pilots/raw_lr_0.01/latest.pt_on_policy_recomputation": true,
+    "figures/policy_gradient_part1/cartpole/evaluation_histogram.png_image": true,
+    "figures/policy_gradient_part1/cartpole/sensitivity_and_seeds.png_image": true,
+    "figures/policy_gradient_part1/cartpole/training_rewards.png_image": true,
+    "figures/policy_gradient_part1/pong/evaluation_histogram.png_image": true,
+    "figures/policy_gradient_part1/pong/training_rewards.png_image": true
+  },
+  "details": {
+    "component1_changed": [],
+    "preserved_files": 42,
+    "evaluations": [
+      {
+        "path": "results/policy_gradient_part1/cartpole/evaluation/rewards.csv",
+        "role": "final",
+        "episodes": 500,
+        "mean": 429.248,
+        "sample_std": 56.775853062564934,
+        "minimum": 278.0,
+        "maximum": 500.0,
+        "ci95_normal": [
+          424.27137705640536,
+          434.2246229435946
+        ]
+      },
+      {
+        "path": "results/policy_gradient_part1/cartpole/random_reference/rewards.csv",
+        "role": "diagnostic",
+        "episodes": 500,
+        "mean": 22.7,
+        "sample_std": 13.379387730089299,
+        "minimum": 9.0,
+        "maximum": 114.0,
+        "ci95_normal": [
+          21.527244957897192,
+          23.872755042102806
+        ]
+      },
+      {
+        "path": "results/policy_gradient_part1/cartpole/seed_11/validation/rewards.csv",
+        "role": "diagnostic",
+        "episodes": 100,
+        "mean": 430.14,
+        "sample_std": 56.63279201410726,
+        "minimum": 277.0,
+        "maximum": 500.0,
+        "ci95_normal": [
+          419.03997276523495,
+          441.240027234765
+        ]
+      },
+      {
+        "path": "results/policy_gradient_part1/cartpole/seed_22/validation/rewards.csv",
+        "role": "diagnostic",
+        "episodes": 100,
+        "mean": 101.5,
+        "sample_std": 19.600814248186712,
+        "minimum": 40.0,
+        "maximum": 144.0,
+        "ci95_normal": [
+          97.65824040735541,
+          105.34175959264459
+        ]
+      },
+      {
+        "path": "results/policy_gradient_part1/cartpole/seed_33/validation/rewards.csv",
+        "role": "diagnostic",
+        "episodes": 100,
+        "mean": 25.31,
+        "sample_std": 3.9916453153095053,
+        "minimum": 15.0,
+        "maximum": 36.0,
+        "ci95_normal": [
+          24.527637518199334,
+          26.092362481800663
+        ]
+      },
+      {
+        "path": "results/policy_gradient_part1/pong/diagnostics/fixed/rewards.csv",
+        "role": "diagnostic",
+        "episodes": 30,
+        "mean": -21.0,
+        "sample_std": 0.0,
+        "minimum": -21.0,
+        "maximum": -21.0,
+        "ci95_normal": [
+          -21.0,
+          -21.0
+        ]
+      },
+      {
+        "path": "results/policy_gradient_part1/pong/diagnostics/pilot_policy/rewards.csv",
+        "role": "diagnostic",
+        "episodes": 30,
+        "mean": -20.5,
+        "sample_std": 0.9377154924749757,
+        "minimum": -21.0,
+        "maximum": -17.0,
+        "ci95_normal": [
+          -20.83555717946373,
+          -20.16444282053627
+        ]
+      },
+      {
+        "path": "results/policy_gradient_part1/pong/diagnostics/random/rewards.csv",
+        "role": "diagnostic",
+        "episodes": 30,
+        "mean": -20.4,
+        "sample_std": 0.8136762043449727,
+        "minimum": -21.0,
+        "maximum": -18.0,
+        "ci95_normal": [
+          -20.691170290261617,
+          -20.10882970973838
+        ]
+      },
+      {
+        "path": "results/policy_gradient_part1/pong/evaluation/rewards.csv",
+        "role": "final",
+        "episodes": 500,
+        "mean": -20.608,
+        "sample_std": 0.6535980268953716,
+        "minimum": -21.0,
+        "maximum": -17.0,
+        "ci95_normal": [
+          -20.665290393029434,
+          -20.550709606970567
+        ]
+      },
+      {
+        "path": "results/policy_gradient_part1/pong/gpu_smoke_evaluation/rewards.csv",
+        "role": "diagnostic",
+        "episodes": 2,
+        "mean": -21.0,
+        "sample_std": 0.0,
+        "minimum": -21.0,
+        "maximum": -21.0,
+        "ci95_normal": [
+          -21.0,
+          -21.0
+        ]
+      }
+    ],
+    "figures": [
+      {
+        "path": "figures/policy_gradient_part1/cartpole/evaluation_histogram.png",
+        "size": [
+          1980,
+          1260
+        ],
+        "dpi": [
+          299.9994,
+          299.9994
+        ]
+      },
+      {
+        "path": "figures/policy_gradient_part1/cartpole/sensitivity_and_seeds.png",
+        "size": [
+          3150,
+          1200
+        ],
+        "dpi": [
+          299.9994,
+          299.9994
+        ]
+      },
+      {
+        "path": "figures/policy_gradient_part1/cartpole/training_rewards.png",
+        "size": [
+          2160,
+          1260
+        ],
+        "dpi": [
+          299.9994,
+          299.9994
+        ]
+      },
+      {
+        "path": "figures/policy_gradient_part1/pong/evaluation_histogram.png",
+        "size": [
+          1980,
+          1260
+        ],
+        "dpi": [
+          299.9994,
+          299.9994
+        ]
+      },
+      {
+        "path": "figures/policy_gradient_part1/pong/training_rewards.png",
+        "size": [
+          2160,
+          1260
+        ],
+        "dpi": [
+          299.9994,
+          299.9994
+        ]
+      }
+    ],
+    "missing_required_figures": []
+  },
+  "assignment_complete": true
+}

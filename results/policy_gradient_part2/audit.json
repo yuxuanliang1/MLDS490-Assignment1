@@ -1,0 +1,9 @@
+{
+  "all_available_checks_passed": true,
+  "checks_count": 1522,
+  "preserved_files": 360,
+  "pending": [
+    "pong training"
+  ],
+  "scope": "Pending remote artifacts are not treated as completed results"
+}

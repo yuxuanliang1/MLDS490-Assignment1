@@ -1,0 +1,16 @@
+{
+  "pilot_episodes": 30,
+  "formal_episodes": 0,
+  "pilot_seed": 101,
+  "formal_seed": 11,
+  "learning_rates": [
+    0.01,
+    0.003,
+    0.001
+  ],
+  "selection": "Prefer pilots with final-10 mean entropy >=0.1 and action0 fraction in [0.05,0.95]; among those maximize last-20 training mean, breaking ties toward smaller learning rate. If all collapse, use the smallest rate and label instability.",
+  "formal_budget_reason": "Compute-limited fixed budget declared before final evaluation; at least ten 100-episode windows at a 1000-episode target. No convergence promise.",
+  "primary_checkpoint": "Final-budget seed 11 checkpoint, selected before evaluation",
+  "evaluation_seed": 1000000,
+  "evaluation_episodes": 500
+}

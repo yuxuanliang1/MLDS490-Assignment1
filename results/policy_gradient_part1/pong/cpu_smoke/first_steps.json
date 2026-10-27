@@ -1,0 +1,212 @@
+[
+  {
+    "t": 0,
+    "observation": {
+      "shape": [
+        1,
+        80,
+        80
+      ],
+      "minimum": 0,
+      "maximum": 0,
+      "nonzero": 0,
+      "mean": 0.0
+    },
+    "policy_action": 0,
+    "environment_action": 2,
+    "log_probability": -0.6897619366645813,
+    "reward": 0.0,
+    "terminated": false,
+    "truncated": false,
+    "reward_to_go": -0.2904884943099637
+  },
+  {
+    "t": 1,
+    "observation": {
+      "shape": [
+        1,
+        80,
+        80
+      ],
+      "minimum": -1,
+      "maximum": 1,
+      "nonzero": 22,
+      "mean": -0.0003125
+    },
+    "policy_action": 0,
+    "environment_action": 2,
+    "log_probability": -0.6899493336677551,
+    "reward": 0.0,
+    "terminated": false,
+    "truncated": false,
+    "reward_to_go": -0.29342272152521587
+  },
+  {
+    "t": 2,
+    "observation": {
+      "shape": [
+        1,
+        80,
+        80
+      ],
+      "minimum": -1,
+      "maximum": 1,
+      "nonzero": 32,
+      "mean": 0.0
+    },
+    "policy_action": 0,
+    "environment_action": 2,
+    "log_probability": -0.6897189021110535,
+    "reward": 0.0,
+    "terminated": false,
+    "truncated": false,
+    "reward_to_go": -0.2963865873992079
+  },
+  {
+    "t": 3,
+    "observation": {
+      "shape": [
+        1,
+        80,
+        80
+      ],
+      "minimum": -1,
+      "maximum": 1,
+      "nonzero": 32,
+      "mean": 0.0
+    },
+    "policy_action": 1,
+    "environment_action": 3,
+    "log_probability": -0.6967896223068237,
+    "reward": 0.0,
+    "terminated": false,
+    "truncated": false,
+    "reward_to_go": -0.29938039131233124
+  },
+  {
+    "t": 4,
+    "observation": {
+      "shape": [
+        1,
+        80,
+        80
+      ],
+      "minimum": -1,
+      "maximum": 1,
+      "nonzero": 8,
+      "mean": 0.0
+    },
+    "policy_action": 1,
+    "environment_action": 3,
+    "log_probability": -0.6966043710708618,
+    "reward": 0.0,
+    "terminated": false,
+    "truncated": false,
+    "reward_to_go": -0.3024044356690215
+  },
+  {
+    "t": 5,
+    "observation": {
+      "shape": [
+        1,
+        80,
+        80
+      ],
+      "minimum": -1,
+      "maximum": 1,
+      "nonzero": 32,
+      "mean": 0.0
+    },
+    "policy_action": 1,
+    "environment_action": 3,
+    "log_probability": -0.6964993476867676,
+    "reward": 0.0,
+    "terminated": false,
+    "truncated": false,
+    "reward_to_go": -0.30545902592830454
+  },
+  {
+    "t": 6,
+    "observation": {
+      "shape": [
+        1,
+        80,
+        80
+      ],
+      "minimum": -1,
+      "maximum": 1,
+      "nonzero": 32,
+      "mean": 0.0
+    },
+    "policy_action": 1,
+    "environment_action": 3,
+    "log_probability": -0.696790874004364,
+    "reward": 0.0,
+    "terminated": false,
+    "truncated": false,
+    "reward_to_go": -0.30854447063465107
+  },
+  {
+    "t": 7,
+    "observation": {
+      "shape": [
+        1,
+        80,
+        80
+      ],
+      "minimum": -1,
+      "maximum": 1,
+      "nonzero": 32,
+      "mean": 0.0
+    },
+    "policy_action": 1,
+    "environment_action": 3,
+    "log_probability": -0.6965188384056091,
+    "reward": 0.0,
+    "terminated": false,
+    "truncated": false,
+    "reward_to_go": -0.3116610814491425
+  },
+  {
+    "t": 8,
+    "observation": {
+      "shape": [
+        1,
+        80,
+        80
+      ],
+      "minimum": -1,
+      "maximum": 1,
+      "nonzero": 32,
+      "mean": 0.0
+    },
+    "policy_action": 0,
+    "environment_action": 2,
+    "log_probability": -0.6899367570877075,
+    "reward": 0.0,
+    "terminated": false,
+    "truncated": false,
+    "reward_to_go": -0.31480917318095203
+  },
+  {
+    "t": 9,
+    "observation": {
+      "shape": [
+        1,
+        80,
+        80
+      ],
+      "minimum": -1,
+      "maximum": 1,
+      "nonzero": 8,
+      "mean": 0.0
+    },
+    "policy_action": 1,
+    "environment_action": 3,
+    "log_probability": -0.696629524230957,
+    "reward": 0.0,
+    "terminated": false,
+    "truncated": false,
+    "reward_to_go": -0.3179890638191435
+  }
+]

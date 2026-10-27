@@ -1,0 +1,65 @@
+{
+  "python": "3.11.5 | packaged by Anaconda, Inc. | (main, Sep 11 2023, 13:26:23) [MSC v.1916 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "packages": {
+    "numpy": "1.26.4",
+    "torch": "2.5.1+cpu",
+    "gymnasium": "1.4.0",
+    "ale-py": "0.10.2",
+    "matplotlib": "3.9.4"
+  },
+  "git_commit": null,
+  "git_status": "No Git metadata",
+  "source_sha256": {
+    "policy_gradient_part1/__init__.py": "399fc6fcd8f96b06b6c74f94589b54e458a3f0c0f9988a3550d668512ddf73fd",
+    "policy_gradient_part1/cli.py": "6e41838a4d8d600e79326678efaf52b4eee3fad1d7e326cccd30528dd029e999",
+    "policy_gradient_part1/config.py": "f8c7fc800efc3c5afcbcd06a58a8793f7a8280e9660d1e14b0e5a167ac665692",
+    "policy_gradient_part1/environments.py": "914679785e354250ccf796e63953485ba7d9f115fa5b8ada6df6122029970b06",
+    "policy_gradient_part1/evaluator.py": "3c0cc87bc2b537116d29a4e3ebb8382f201647f5660b08a5fbf270f3761a6d34",
+    "policy_gradient_part1/models.py": "281006ee581177e1c699c2d75f8c640ac81f7ae9ceb5040a92c6c3672a320814",
+    "policy_gradient_part1/plots.py": "05e54e6330ddc3832d638ebaf15c954f4e1d30c8492fc093b0328fb198ec83ee",
+    "policy_gradient_part1/preprocessing.py": "a19351cff332aba9b255db05c003ceb1823837c1b7c626a47c567600f1e01145",
+    "policy_gradient_part1/reinforce.py": "ff906b1ce57b39703fcb51165471172b6e79dada3ac432058ae4ebd61b92b30a",
+    "policy_gradient_part1/rollout.py": "a1608cc845bf90ae12b87be89f6656402ba8af37fc75f9693e2a0ef4d5280708",
+    "policy_gradient_part1/runtime.py": "ecf474de76ac81a4c415db8e50934bd746b009dd4c1d1d0d25bbefaab6a5b24e",
+    "policy_gradient_part1/trainer.py": "a918441f050d4010603d8470b8efd00d63846dfcd6c69ef5c30ed0d003fc3d79",
+    "policy_gradient_part1/validation.py": "39506c42f6b3899903dd1cb0d660e42e9c6a02eb7cb937cd581d2c8cff3b54af",
+    "scripts/evaluate_pg.py": "a2ee765af45f23ef83d6f5a45d949eb729326f3f5df24cef62f2b4761b43c683",
+    "scripts/package_pg_source.py": "725552bad2bb420aea342b3678388ec7110a432a37b6b45ca6cd54992638959b",
+    "scripts/run_cartpole_experiments.py": "be38369902ab0ab4ef5e38bb0670084e4151583aee0bfa21aa655c91c8190319",
+    "scripts/run_pg_validation.py": "5861653b5e3444e2892eb7746388b1f1b8438ce728b1a68cf48addbae9f3ccbc",
+    "scripts/run_pong_pilots.py": "c577c80320e2185f6881e7eef46cb56b038b8450d0a3c6efe97362c8f5168f09",
+    "scripts/run_value_policy.py": "8b76a00b110d8781979591caceae7f0a7281d6d4dfcb6cf8987f64c28483e88c",
+    "scripts/train_cartpole.py": "3b2d7af8110f97070fce3ea8dd080dd18d4150b46b1f7c7cd47150a5215b57ba",
+    "scripts/train_pong.py": "41e2c5bafe43855ffe62268f0c99fffd4ceff2349bc27023da43fbfd9185c116",
+    "configs/cartpole_part1.json": "8bf5ce3734e3a65b87f75082a466311931d50c1a428842c6749d88b2c2df83aa",
+    "configs/pong_part1.json": "bbaf77f1beab9e186d9e75bd30a3df9b6a3ce85d8b5b22b66703cc42ef0198b4"
+  },
+  "model": "Sequential(\n  (0): Conv2d(1, 8, kernel_size=(8, 8), stride=(4, 4))\n  (1): ReLU()\n  (2): Conv2d(8, 16, kernel_size=(4, 4), stride=(2, 2))\n  (3): ReLU()\n  (4): Conv2d(16, 32, kernel_size=(3, 3), stride=(1, 1))\n  (5): ReLU()\n  (6): Flatten(start_dim=1, end_dim=-1)\n  (7): Linear(in_features=1152, out_features=64, bias=True)\n  (8): ReLU()\n  (9): Linear(in_features=64, out_features=2, bias=True)\n)",
+  "parameters": 81146,
+  "cuda_visible_devices": null,
+  "pid": 27360,
+  "objective": "negative time-sum of sampled log probabilities times uncentered reward-to-go; mean over episodes; no outer gamma^t; no baseline, entropy bonus or return scaling",
+  "environment": {
+    "id": "ALE/Pong-v5",
+    "max_episode_steps": null,
+    "action_meanings": [
+      "NOOP",
+      "FIRE",
+      "RIGHT",
+      "LEFT",
+      "RIGHTFIRE",
+      "LEFTFIRE"
+    ],
+    "learned_action_mapping": [
+      2,
+      3
+    ],
+    "frameskip": 4,
+    "repeat_action_probability": 0.25,
+    "fire_on_reset": false,
+    "reward_clipping": false,
+    "point_return_resets": false,
+    "frame_difference": true
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "added_source_and_documentation": [
+    "policy_gradient_part2/__init__.py",
+    "policy_gradient_part2/baseline.py",
+    "policy_gradient_part2/analysis.py",
+    "configs/cartpole_part2.json",
+    "configs/pong_part2.json",
+    "scripts/train_pg2.py",
+    "scripts/validate_pg2.py",
+    "scripts/diagnose_pg2.py",
+    "scripts/run_cartpole_part2.py",
+    "scripts/pong_part2_pipeline.py",
+    "scripts/launch_pong_part2.py",
+    "scripts/package_pg2_source.py",
+    "scripts/audit_pg2.py",
+    "scripts/update_pg2_report.py",
+    "report/sections/policy_gradient_2.tex",
+    "report/sections/policy_gradient_2_results.tex",
+    "docs/PART2_STATUS.md"
+  ],
+  "modified_source_and_documentation": [
+    "policy_gradient_part1/reinforce.py",
+    "policy_gradient_part1/trainer.py",
+    "policy_gradient_part1/runtime.py",
+    "scripts/audit_pg_artifacts.py",
+    "README.md",
+    "report/report.tex",
+    "report/sections/policy_gradient_1.tex",
+    "report/sections/policy_gradient_1_results.tex",
+    "docs/PONG_ACTIVE_RUN.md",
+    "docs/REMOTE_COMPUTE.md"
+  ],
+  "generated": [
+    "results/policy_gradient_part2/",
+    "figures/policy_gradient_part2/"
+  ],
+  "imported_completed_part1": [
+    "results/policy_gradient_part1/pong/formal/",
+    "results/policy_gradient_part1/pong/evaluation/",
+    "figures/policy_gradient_part1/pong/"
+  ],
+  "preservation": "All 360 pre-existing artifact files verified against initial SHA256; legacy audit status restored byte-for-byte. Completed new audit is saved under Part 2.",
+  "git": "No .git metadata available"
+}

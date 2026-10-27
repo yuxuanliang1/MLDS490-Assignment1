@@ -1,0 +1,29 @@
+{
+  "selected_host": "deepdish5",
+  "physical_gpu_index": 1,
+  "gpu_model": "NVIDIA RTX PRO 5000 Blackwell",
+  "gpu_uuid": "GPU-ec0c988c-3d23-d55e-7713-293719142e7d",
+  "benchmark_complete_episodes": 10,
+  "seconds_per_episode": 1.2981562552042305,
+  "steps_per_second": 748.06094883179,
+  "deepdish3_reference_seconds_per_episode": 4.048730458624454,
+  "episode_throughput_speedup": 3.1188313751856422,
+  "time_reduction_percent": 67.93670834671282,
+  "formal_job_pid": 1515156,
+  "initial_training_pid": 1515165,
+  "source_release": "/nfs/home/fqu0882/mlds490/releases/part1-20261026-blackwell",
+  "source_archive_sha256": "c9e9e907b15ce7b4e20059b887c15e0f4e675ce762ae0494069b5bc21d276411",
+  "persistence": "nohup + new POSIX session; stdin closed; durable stdout/stderr",
+  "formal_config": {
+    "episodes": 1000,
+    "gamma": 0.99,
+    "discount_weighting": "absolute",
+    "learning_rate": 0.01,
+    "batch_episodes": 5,
+    "seed": 11,
+    "checkpoint_interval": 50,
+    "log_interval": 10
+  },
+  "automatic_evaluation_episodes": 500,
+  "limitation": "Short deployment comparison: Python/PyTorch and objective convention differ from earlier Deepdish3 pilots; not an isolated hardware effect."
+}

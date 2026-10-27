@@ -1,0 +1,45 @@
+{
+  "episodes": 500,
+  "mean": -20.608,
+  "sample_std": 0.6535980268953716,
+  "minimum": -21.0,
+  "maximum": -17.0,
+  "ci95_normal": [
+    -20.665290393029434,
+    -20.550709606970567
+  ],
+  "checkpoint": "/nfs/home/fqu0882/mlds490/releases/part1-20261026-blackwell/results/policy_gradient_part1/pong/formal/latest.pt",
+  "checkpoint_sha256": "4821b1ce9c03903f4e81f3b58821853add472cc1d66be66bcf83adb09c0abffc",
+  "training_episodes": 1000,
+  "training_seed": 11,
+  "evaluation_seed": 1000000,
+  "policy_mode": "stochastic",
+  "reference": null,
+  "role": "final",
+  "elapsed_seconds": 563.6368388789706,
+  "environment": {
+    "id": "ALE/Pong-v5",
+    "max_episode_steps": null,
+    "action_meanings": [
+      "NOOP",
+      "FIRE",
+      "RIGHT",
+      "LEFT",
+      "RIGHTFIRE",
+      "LEFTFIRE"
+    ],
+    "learned_action_mapping": [
+      2,
+      3
+    ],
+    "frameskip": 4,
+    "repeat_action_probability": 0.25,
+    "fire_on_reset": false,
+    "reward_clipping": false,
+    "point_return_resets": false,
+    "frame_difference": true
+  },
+  "terminated_count": 500,
+  "truncated_count": 0,
+  "action0_fraction": 0.4213431712946675
+}

@@ -1,0 +1,113 @@
+﻿{
+  "hostname": "mlds-deepdish1",
+  "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+  "cpu_count": 12,
+  "cpu_affinity_count": 12,
+  "tools": {
+    "python": null,
+    "python3": "/usr/bin/python3",
+    "conda": null,
+    "tmux": "/usr/bin/tmux",
+    "screen": "/usr/bin/screen",
+    "sbatch": null,
+    "srun": null,
+    "qsub": null,
+    "nvcc": "/usr/bin/nvcc"
+  },
+  "memory": {
+    "MemTotal_KiB": 131814964,
+    "MemAvailable_KiB": 125531140,
+    "SwapTotal_KiB": 0,
+    "SwapFree_KiB": 0
+  },
+  "nvidia_smi": {
+    "exit_code": 0,
+    "stdout": "Mon Oct 26 22:02:27 2026       \n+-----------------------------------------------------------------------------------------+\n| NVIDIA-SMI 580.178.04             Driver Version: 580.178.04     CUDA Version: 13.0     |\n+-----------------------------------------+------------------------+----------------------+\n| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |\n| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |\n|                                         |                        |               MIG M. |\n|=========================================+========================+======================|\n|   0  NVIDIA GeForce GTX 1080        On  |   00000000:05:00.0 Off |                  N/A |\n| 50%   68C    P2            122W /  198W |    8071MiB /   8192MiB |    100%      Default |\n|                                         |                        |                  N/A |\n+-----------------------------------------+------------------------+----------------------+\n|   1  NVIDIA GeForce GTX 1080        On  |   00000000:06:00.0 Off |                  N/A |\n| 27%   32C    P8              7W /  180W |       3MiB /   8192MiB |      0%      Default |\n|                                         |                        |                  N/A |\n+-----------------------------------------+------------------------+----------------------+\n|   2  NVIDIA GeForce GTX 1080        On  |   00000000:09:00.0 Off |                  N/A |\n| 27%   29C    P8              7W /  180W |       3MiB /   8192MiB |      0%      Default |\n|                                         |                        |                  N/A |\n+-----------------------------------------+------------------------+----------------------+\n|   3  NVIDIA GeForce GTX 1080        On  |   00000000:0A:00.0 Off |                  N/A |\n|  0%   25C    P8              7W /  198W |       3MiB /   8192MiB |      0%      Default |\n|                                         |                        |                  N/A |\n+-----------------------------------------+------------------------+----------------------+\n\n+-----------------------------------------------------------------------------------------+\n| Processes:                                                                              |\n|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |\n|        ID   ID                                                               Usage      |\n|=========================================================================================|\n|    0   N/A  N/A         2526572      C   python                                 8066MiB |\n+-----------------------------------------------------------------------------------------+",
+    "stderr": ""
+  },
+  "driver_cuda_compatibility": "13.0",
+  "gpu_query": {
+    "exit_code": 0,
+    "stdout": "0, GPU-7666eff4-9bb7-84ab-740e-88240d28b083, NVIDIA GeForce GTX 1080, 8192, 8071, 37, 100, 580.178.04, 6.1\n1, GPU-405a7054-f398-fde6-8622-a60aa2e864e0, NVIDIA GeForce GTX 1080, 8192, 3, 8105, 0, 580.178.04, 6.1\n2, GPU-212d69a0-7ccf-77a2-cef5-6b318dc0aa9a, NVIDIA GeForce GTX 1080, 8192, 3, 8105, 0, 580.178.04, 6.1\n3, GPU-754b4c88-1c13-ff11-f67b-ccc88ed0ebcf, NVIDIA GeForce GTX 1080, 8192, 3, 8105, 0, 580.178.04, 6.1",
+    "stderr": ""
+  },
+  "gpus": [
+    {
+      "index": "0",
+      "uuid": "GPU-7666eff4-9bb7-84ab-740e-88240d28b083",
+      "name": "NVIDIA GeForce GTX 1080",
+      "total_MiB": "8192",
+      "used_MiB": "8071",
+      "free_MiB": "37",
+      "utilization_percent": "100",
+      "driver": "580.178.04",
+      "compute_capability": "6.1"
+    },
+    {
+      "index": "1",
+      "uuid": "GPU-405a7054-f398-fde6-8622-a60aa2e864e0",
+      "name": "NVIDIA GeForce GTX 1080",
+      "total_MiB": "8192",
+      "used_MiB": "3",
+      "free_MiB": "8105",
+      "utilization_percent": "0",
+      "driver": "580.178.04",
+      "compute_capability": "6.1"
+    },
+    {
+      "index": "2",
+      "uuid": "GPU-212d69a0-7ccf-77a2-cef5-6b318dc0aa9a",
+      "name": "NVIDIA GeForce GTX 1080",
+      "total_MiB": "8192",
+      "used_MiB": "3",
+      "free_MiB": "8105",
+      "utilization_percent": "0",
+      "driver": "580.178.04",
+      "compute_capability": "6.1"
+    },
+    {
+      "index": "3",
+      "uuid": "GPU-754b4c88-1c13-ff11-f67b-ccc88ed0ebcf",
+      "name": "NVIDIA GeForce GTX 1080",
+      "total_MiB": "8192",
+      "used_MiB": "3",
+      "free_MiB": "8105",
+      "utilization_percent": "0",
+      "driver": "580.178.04",
+      "compute_capability": "6.1"
+    }
+  ],
+  "gpu_processes": {
+    "exit_code": 0,
+    "stdout": "GPU-7666eff4-9bb7-84ab-740e-88240d28b083, 2526572, python, 8066",
+    "stderr": ""
+  },
+  "nvcc": {
+    "exit_code": 0,
+    "stdout": "nvcc: NVIDIA (R) Cuda compiler driver\nCopyright (c) 2005-2021 NVIDIA Corporation\nBuilt on Thu_Nov_18_09:45:30_PST_2021\nCuda compilation tools, release 11.5, V11.5.119\nBuild cuda_11.5.r11.5/compiler.30672275_0",
+    "stderr": ""
+  },
+  "python_environments": {
+    "/usr/bin/python3": {
+      "version": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+      "executable": "/usr/bin/python3",
+      "packages": {
+        "torch": false,
+        "gymnasium": false,
+        "ale_py": false
+      }
+    },
+    "/opt/anaconda/bin/python": {
+      "version": "3.9.12 (main, Apr  5 2022, 06:56:58) \n[GCC 7.5.0]",
+      "executable": "/opt/anaconda/bin/python",
+      "packages": {
+        "torch": true,
+        "gymnasium": false,
+        "ale_py": false
+      },
+      "torch_version": "2.4.1+cu124",
+      "wheel_cuda": "12.4",
+      "compiled_arches": "sm_50 sm_60 sm_70 sm_75 sm_80 sm_86 sm_90"
+    }
+  }
+}

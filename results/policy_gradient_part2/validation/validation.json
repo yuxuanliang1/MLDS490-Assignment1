@@ -1,0 +1,210 @@
+{
+  "all_passed": true,
+  "checks": {
+    "initial_zero": true,
+    "negative_returns_and_first_observation_warmup": true,
+    "baseline_state_round_trip": true,
+    "nonfinite_rejected": true,
+    "constant_negative_rewards_gamma0_length1": true,
+    "constant_negative_rewards_gamma0_length2": true,
+    "constant_negative_rewards_gamma0_length10000": true,
+    "constant_negative_rewards_gamma0.5_length1": true,
+    "constant_negative_rewards_gamma0.5_length2": true,
+    "constant_negative_rewards_gamma0.5_length10000": true,
+    "constant_negative_rewards_gamma0.95_length1": true,
+    "constant_negative_rewards_gamma0.95_length2": true,
+    "constant_negative_rewards_gamma0.95_length10000": true,
+    "constant_negative_rewards_gamma1_length1": true,
+    "constant_negative_rewards_gamma1_length2": true,
+    "constant_negative_rewards_gamma1_length10000": true,
+    "missing_empty_mismatched_incomplete_rejected": true,
+    "exact_gradient_and_baseline_invariance": true,
+    "paired_synthetic_variance_reduced": true,
+    "paired_mean_difference_within_5se": true,
+    "chunked_baseline_gradient_matches_full_autograd": true,
+    "zero_baseline_bitwise_part1_compatibility": true,
+    "resumed_model_identical": true,
+    "resumed_optimizer_identical": true,
+    "resumed_rng_identical": true,
+    "resumed_baseline_identical": true,
+    "resumed_config_identical": true,
+    "resumed_completed_episodes_identical": true,
+    "resumed_numerical_history_identical": true,
+    "baseline_frozen_per_batch": true
+  },
+  "exact_enumeration": [
+    {
+      "gamma": 0.0,
+      "convention": "relative",
+      "baseline": -10.0,
+      "error": 3.885780586188048e-16
+    },
+    {
+      "gamma": 0.0,
+      "convention": "relative",
+      "baseline": 0.0,
+      "error": 5.551115123125783e-17
+    },
+    {
+      "gamma": 0.0,
+      "convention": "relative",
+      "baseline": 2.0,
+      "error": 5.551115123125783e-17
+    },
+    {
+      "gamma": 0.0,
+      "convention": "relative",
+      "baseline": 100.0,
+      "error": 1.3877787807814457e-15
+    },
+    {
+      "gamma": 0.0,
+      "convention": "absolute",
+      "baseline": -10.0,
+      "error": 6.106226635438361e-16
+    },
+    {
+      "gamma": 0.0,
+      "convention": "absolute",
+      "baseline": 0.0,
+      "error": 0.0
+    },
+    {
+      "gamma": 0.0,
+      "convention": "absolute",
+      "baseline": 2.0,
+      "error": 8.326672684688674e-17
+    },
+    {
+      "gamma": 0.0,
+      "convention": "absolute",
+      "baseline": 100.0,
+      "error": 1.609823385706477e-15
+    },
+    {
+      "gamma": 0.95,
+      "convention": "relative",
+      "baseline": -10.0,
+      "error": 3.885780586188048e-16
+    },
+    {
+      "gamma": 0.95,
+      "convention": "relative",
+      "baseline": 0.0,
+      "error": 0.0
+    },
+    {
+      "gamma": 0.95,
+      "convention": "relative",
+      "baseline": 2.0,
+      "error": 0.0
+    },
+    {
+      "gamma": 0.95,
+      "convention": "relative",
+      "baseline": 100.0,
+      "error": 2.1649348980190553e-15
+    },
+    {
+      "gamma": 0.95,
+      "convention": "absolute",
+      "baseline": -10.0,
+      "error": 4.996003610813204e-16
+    },
+    {
+      "gamma": 0.95,
+      "convention": "absolute",
+      "baseline": 0.0,
+      "error": 5.551115123125783e-17
+    },
+    {
+      "gamma": 0.95,
+      "convention": "absolute",
+      "baseline": 2.0,
+      "error": 0.0
+    },
+    {
+      "gamma": 0.95,
+      "convention": "absolute",
+      "baseline": 100.0,
+      "error": 1.7208456881689926e-15
+    },
+    {
+      "gamma": 1.0,
+      "convention": "relative",
+      "baseline": -10.0,
+      "error": 4.996003610813204e-16
+    },
+    {
+      "gamma": 1.0,
+      "convention": "relative",
+      "baseline": 0.0,
+      "error": 5.551115123125783e-17
+    },
+    {
+      "gamma": 1.0,
+      "convention": "relative",
+      "baseline": 2.0,
+      "error": 5.551115123125783e-17
+    },
+    {
+      "gamma": 1.0,
+      "convention": "relative",
+      "baseline": 100.0,
+      "error": 1.3877787807814457e-15
+    },
+    {
+      "gamma": 1.0,
+      "convention": "absolute",
+      "baseline": -10.0,
+      "error": 4.996003610813204e-16
+    },
+    {
+      "gamma": 1.0,
+      "convention": "absolute",
+      "baseline": 0.0,
+      "error": 5.551115123125783e-17
+    },
+    {
+      "gamma": 1.0,
+      "convention": "absolute",
+      "baseline": 2.0,
+      "error": 5.551115123125783e-17
+    },
+    {
+      "gamma": 1.0,
+      "convention": "absolute",
+      "baseline": 100.0,
+      "error": 1.3877787807814457e-15
+    }
+  ],
+  "max_exact_error": 2.1649348980190553e-15,
+  "synthetic_variance": {
+    "episodes": 200000,
+    "independent_prior_episodes": 2000,
+    "baseline": 2.2971958455293535,
+    "analytical_gradient": [
+      -0.375,
+      0.375
+    ],
+    "mean_without": [
+      -0.3740025,
+      0.3740025
+    ],
+    "mean_with": [
+      -0.37553013523845324,
+      0.37553013523845324
+    ],
+    "trace_covariance_without": 0.8452484862316352,
+    "trace_covariance_with": 0.23874370928828337,
+    "relative_reduction": 0.7175461261661968,
+    "mean_difference_norm": 0.002160402470921694,
+    "paired_mean_difference_se": [
+      0.002226224553140757,
+      0.002226224553140757
+    ]
+  },
+  "max_chunk_gradient_error": 2.384185791015625e-07,
+  "device": "cpu",
+  "scope": "Synthetic variance is not evidence of variance reduction for every game/policy/baseline"
+}

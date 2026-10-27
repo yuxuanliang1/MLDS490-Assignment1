@@ -1,0 +1,10 @@
+{
+  "completed_episodes": 1500,
+  "requested_episodes": 1500,
+  "complete": true,
+  "elapsed_this_invocation_seconds": 50.85180440000022,
+  "mean_last100": 122.61,
+  "training_seed": 22,
+  "checkpoint": "latest.pt",
+  "selection": "Fixed budget final checkpoint; no final evaluation used for selection"
+}

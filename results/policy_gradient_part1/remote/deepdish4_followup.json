@@ -1,0 +1,88 @@
+﻿{
+  "hostname": "mlds-deepdish4",
+  "inspected_utc": "2026-10-26T22:09:02.821061+00:00",
+  "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+  "cpu_count": 32,
+  "cpu_affinity_count": 32,
+  "load_average": [
+    2.35693359375,
+    2.15283203125,
+    2.357421875
+  ],
+  "tools": {
+    "python": null,
+    "python3": "/usr/bin/python3",
+    "conda": null,
+    "tmux": "/usr/bin/tmux",
+    "screen": "/usr/bin/screen",
+    "sbatch": null,
+    "srun": null,
+    "qsub": null,
+    "nvcc": null
+  },
+  "cpu_model": "Intel(R) Xeon(R) Silver 4208 CPU @ 2.10GHz",
+  "memory": {
+    "MemTotal_KiB": 196671144,
+    "MemAvailable_KiB": 179908304,
+    "SwapTotal_KiB": 33554428,
+    "SwapFree_KiB": 33167848
+  },
+  "nvidia_smi": {
+    "exit_code": 0,
+    "stdout": "Mon Oct 26 22:09:02 2026       \n+-----------------------------------------------------------------------------------------+\n| NVIDIA-SMI 580.178.04             Driver Version: 580.178.04     CUDA Version: 13.0     |\n+-----------------------------------------+------------------------+----------------------+\n| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |\n| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |\n|                                         |                        |               MIG M. |\n|=========================================+========================+======================|\n|   0  NVIDIA RTX A6000               On  |   00000000:88:00.0 Off |                  Off |\n| 30%   41C    P2             71W /  300W |     417MiB /  49140MiB |      7%      Default |\n|                                         |                        |                  N/A |\n+-----------------------------------------+------------------------+----------------------+\n\n+-----------------------------------------------------------------------------------------+\n| Processes:                                                                              |\n|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |\n|        ID   ID                                                               Usage      |\n|=========================================================================================|\n|    0   N/A  N/A         4079680      C   .../.conda/envs/myenv/bin/python        408MiB |\n+-----------------------------------------------------------------------------------------+",
+    "stderr": ""
+  },
+  "driver_cuda_compatibility": "13.0",
+  "gpu_query": {
+    "exit_code": 0,
+    "stdout": "0, GPU-15cd766c-13a0-1620-c03f-182b514cf6f5, NVIDIA RTX A6000, 49140, 417, 48124, 7, 580.178.04, 8.6",
+    "stderr": ""
+  },
+  "gpus": [
+    {
+      "index": "0",
+      "uuid": "GPU-15cd766c-13a0-1620-c03f-182b514cf6f5",
+      "name": "NVIDIA RTX A6000",
+      "total_MiB": "49140",
+      "used_MiB": "417",
+      "free_MiB": "48124",
+      "utilization_percent": "7",
+      "driver": "580.178.04",
+      "compute_capability": "8.6"
+    }
+  ],
+  "gpu_processes": {
+    "exit_code": 0,
+    "stdout": "GPU-15cd766c-13a0-1620-c03f-182b514cf6f5, 4079680, /nfs/home/nxt1510/.conda/envs/myenv/bin/python, 408",
+    "stderr": ""
+  },
+  "nvcc": {
+    "error": "[Errno 2] No such file or directory: 'nvcc'"
+  },
+  "python_environments": {
+    "/usr/bin/python3": {
+      "version": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+      "executable": "/usr/bin/python3",
+      "packages": {
+        "torch": true,
+        "gymnasium": false,
+        "ale_py": false
+      },
+      "torch_version": "2.6.0+cu124",
+      "wheel_cuda": "12.4",
+      "compiled_arches": "sm_50 sm_60 sm_70 sm_75 sm_80 sm_86 sm_90"
+    },
+    "/opt/anaconda/bin/python": {
+      "version": "3.9.12 (main, Apr  5 2022, 06:56:58) \n[GCC 7.5.0]",
+      "executable": "/opt/anaconda/bin/python",
+      "packages": {
+        "torch": true,
+        "gymnasium": false,
+        "ale_py": false
+      },
+      "torch_version": "2.8.0+cu128",
+      "wheel_cuda": "12.8",
+      "compiled_arches": "sm_70 sm_75 sm_80 sm_86 sm_90 sm_100 sm_120"
+    }
+  }
+}

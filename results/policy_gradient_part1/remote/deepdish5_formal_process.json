@@ -1,0 +1,9 @@
+{
+  "pid": 1515156,
+  "stage": "formal",
+  "log": "/nfs/home/fqu0882/mlds490/releases/part1-20261026-blackwell/results/policy_gradient_part1/remote/formal_independent.log",
+  "root": "/nfs/home/fqu0882/mlds490/releases/part1-20261026-blackwell",
+  "gpu_uuid": "GPU-ec0c988c-3d23-d55e-7713-293719142e7d",
+  "python": "/nfs/home/fqu0882/.venvs/mlds490-pg-deepdish5/bin/python",
+  "persistence": "nohup + new POSIX session; stdin closed; durable stdout/stderr"
+}

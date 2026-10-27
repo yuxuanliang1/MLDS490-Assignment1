@@ -1,0 +1,216 @@
+{
+  "environment": {
+    "id": "ALE/Pong-v5",
+    "max_episode_steps": null,
+    "action_meanings": [
+      "NOOP",
+      "FIRE",
+      "RIGHT",
+      "LEFT",
+      "RIGHTFIRE",
+      "LEFTFIRE"
+    ],
+    "learned_action_mapping": [
+      2,
+      3
+    ],
+    "frameskip": 4,
+    "repeat_action_probability": 0.25,
+    "fire_on_reset": false,
+    "reward_clipping": false,
+    "point_return_resets": false,
+    "frame_difference": true
+  },
+  "startup": [
+    {
+      "fire_on_reset": false,
+      "steps": 824,
+      "scoring_events": [
+        {
+          "step": 64,
+          "reward": -1.0
+        },
+        {
+          "step": 99,
+          "reward": -1.0
+        },
+        {
+          "step": 134,
+          "reward": -1.0
+        },
+        {
+          "step": 169,
+          "reward": -1.0
+        },
+        {
+          "step": 204,
+          "reward": -1.0
+        },
+        {
+          "step": 239,
+          "reward": -1.0
+        },
+        {
+          "step": 274,
+          "reward": -1.0
+        },
+        {
+          "step": 309,
+          "reward": -1.0
+        },
+        {
+          "step": 344,
+          "reward": -1.0
+        },
+        {
+          "step": 379,
+          "reward": -1.0
+        },
+        {
+          "step": 474,
+          "reward": -1.0
+        },
+        {
+          "step": 509,
+          "reward": -1.0
+        },
+        {
+          "step": 544,
+          "reward": -1.0
+        },
+        {
+          "step": 579,
+          "reward": -1.0
+        },
+        {
+          "step": 614,
+          "reward": -1.0
+        },
+        {
+          "step": 649,
+          "reward": -1.0
+        },
+        {
+          "step": 684,
+          "reward": -1.0
+        },
+        {
+          "step": 719,
+          "reward": -1.0
+        },
+        {
+          "step": 754,
+          "reward": -1.0
+        },
+        {
+          "step": 789,
+          "reward": -1.0
+        },
+        {
+          "step": 824,
+          "reward": -1.0
+        }
+      ],
+      "changed_frame_inputs": 811,
+      "initial_foreground_pixels": 18,
+      "terminated": true,
+      "truncated": false
+    },
+    {
+      "fire_on_reset": true,
+      "steps": 945,
+      "scoring_events": [
+        {
+          "step": 124,
+          "reward": -1.0
+        },
+        {
+          "step": 159,
+          "reward": -1.0
+        },
+        {
+          "step": 194,
+          "reward": -1.0
+        },
+        {
+          "step": 229,
+          "reward": -1.0
+        },
+        {
+          "step": 264,
+          "reward": -1.0
+        },
+        {
+          "step": 299,
+          "reward": -1.0
+        },
+        {
+          "step": 334,
+          "reward": -1.0
+        },
+        {
+          "step": 430,
+          "reward": -1.0
+        },
+        {
+          "step": 465,
+          "reward": -1.0
+        },
+        {
+          "step": 500,
+          "reward": -1.0
+        },
+        {
+          "step": 535,
+          "reward": -1.0
+        },
+        {
+          "step": 570,
+          "reward": -1.0
+        },
+        {
+          "step": 605,
+          "reward": -1.0
+        },
+        {
+          "step": 640,
+          "reward": -1.0
+        },
+        {
+          "step": 675,
+          "reward": -1.0
+        },
+        {
+          "step": 710,
+          "reward": -1.0
+        },
+        {
+          "step": 745,
+          "reward": -1.0
+        },
+        {
+          "step": 780,
+          "reward": -1.0
+        },
+        {
+          "step": 815,
+          "reward": -1.0
+        },
+        {
+          "step": 850,
+          "reward": -1.0
+        },
+        {
+          "step": 945,
+          "reward": -1.0
+        }
+      ],
+      "changed_frame_inputs": 899,
+      "initial_foreground_pixels": 16,
+      "terminated": true,
+      "truncated": false
+    }
+  ],
+  "no_fire_progress_verified": true,
+  "decision": "No FIRE at reset or points"
+}

@@ -1,0 +1,148 @@
+{
+  "checks": {
+    "handcrafted_returns": true,
+    "exact_gradient": true,
+    "empirical_gradient": true,
+    "finite_difference": true,
+    "better_action_learned": true,
+    "preprocess_binary_and_copy": true,
+    "first_and_identical_frame_differences_zero": true,
+    "invalid_frame_rejected": true,
+    "nonfinite_rejected": true,
+    "extreme_logits_stable": true,
+    "chunk_gradient_equivalence": true,
+    "checkpoint_probability_match": true,
+    "checkpoint_optimizer_rng_continuation": true,
+    "one_step_truncation": true
+  },
+  "all_passed": true,
+  "evidence": {
+    "returns": [
+      {
+        "rewards": [
+          1,
+          2,
+          3
+        ],
+        "gamma": 0.5,
+        "expected": [
+          2.75,
+          3.5,
+          3
+        ],
+        "max_error": 0.0
+      },
+      {
+        "rewards": [
+          1,
+          2,
+          3
+        ],
+        "gamma": 0,
+        "expected": [
+          1,
+          2,
+          3
+        ],
+        "max_error": 0.0
+      },
+      {
+        "rewards": [
+          1,
+          2,
+          3
+        ],
+        "gamma": 1,
+        "expected": [
+          6,
+          5,
+          3
+        ],
+        "max_error": 0.0
+      },
+      {
+        "rewards": [
+          1,
+          2,
+          3
+        ],
+        "gamma": 0.999,
+        "expected": [
+          5.992003,
+          4.997,
+          3
+        ],
+        "max_error": 8.881784197001252e-16
+      },
+      {
+        "rewards": [
+          7
+        ],
+        "gamma": 0.95,
+        "expected": [
+          7
+        ],
+        "max_error": 0.0
+      },
+      {
+        "rewards": [
+          0,
+          0,
+          -1,
+          0,
+          1
+        ],
+        "gamma": 0.5,
+        "expected": [
+          -0.1875,
+          -0.375,
+          -0.75,
+          0.5,
+          1
+        ],
+        "max_error": 0.0
+      }
+    ],
+    "analytical_gradient": {
+      "analytic": [
+        -0.294,
+        0.294
+      ],
+      "autograd": [
+        -0.294,
+        0.294
+      ],
+      "monte_carlo": [
+        -0.2951600000000001,
+        0.2951600000000001
+      ],
+      "samples": 100000,
+      "finite_difference": [
+        -0.2939999999562737,
+        0.2939999999562737
+      ],
+      "exact_max_error": 0.0,
+      "empirical_max_error": 0.0011600000000001054
+    },
+    "controlled_decision": {
+      "initial_better_action_probability": 0.5,
+      "final_better_action_probability": 0.9856239557266235,
+      "initial_loss_gradient": [
+        0.2421875,
+        -0.2421875
+      ],
+      "mean_reward_first50": 0.6234375,
+      "mean_reward_last50": 0.9825
+    },
+    "chunking": {
+      "max_gradient_error": 2.384185791015625e-07,
+      "max_log_probability_error": 5.960464477539063e-08
+    },
+    "checkpoint": {
+      "probability_error": 0.0,
+      "continuation_parameter_error": 0.0,
+      "matched_actions": true,
+      "scope": "Same CPU/software, episode boundary; not mid-episode or cross-device"
+    }
+  }
+}

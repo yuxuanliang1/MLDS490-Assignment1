@@ -1,0 +1,41 @@
+{
+  "episodes": 500,
+  "mean": 497.282,
+  "sample_std": 19.68933253391954,
+  "minimum": 261.0,
+  "maximum": 500.0,
+  "ci95_normal": [
+    495.55615390968427,
+    499.0078460903157
+  ],
+  "checkpoint": "D:\\Code\\MLDS\\Assignment_1\\results\\policy_gradient_part2\\cartpole\\seed_11\\latest.pt",
+  "checkpoint_sha256": "aa113538ed8576115be30b9198e4f0ed38461155c8c74a3ec8b2cd3512e8f209",
+  "training_episodes": 1500,
+  "training_seed": 11,
+  "evaluation_seed": 1000000,
+  "policy_mode": "stochastic",
+  "reference": null,
+  "role": "final",
+  "elapsed_seconds": 80.84512610000093,
+  "environment": {
+    "id": "CartPole-v1",
+    "max_episode_steps": 500,
+    "action_meanings": [
+      "LEFT",
+      "RIGHT"
+    ],
+    "learned_action_mapping": [
+      0,
+      1
+    ],
+    "frameskip": null,
+    "repeat_action_probability": null,
+    "fire_on_reset": false,
+    "reward_clipping": false,
+    "point_return_resets": false,
+    "frame_difference": false
+  },
+  "terminated_count": 12,
+  "truncated_count": 488,
+  "action0_fraction": 0.49920401032125583
+}

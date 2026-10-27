@@ -1,0 +1,27 @@
+{
+  "checks": {
+    "absolute_matches_analytic": true,
+    "relative_matches_analytic": true,
+    "strict_objective_finite_difference": true,
+    "conventions_are_distinct": true,
+    "absolute_chunk_gradient_equivalence": true,
+    "gamma_zero_time_zero": true,
+    "single_step_same": true
+  },
+  "all_passed": true,
+  "evidence": {
+    "gamma": 0.5,
+    "action1_probability": 0.3,
+    "rewards": "r0=a0, r1=2*a1",
+    "expected_discounted_reward": 0.6,
+    "loss_gradients": {
+      "relative": -0.6300000000000001,
+      "absolute": -0.4200000000000001
+    },
+    "analytic_absolute": -0.42,
+    "analytic_relative": -0.6299999999999999,
+    "finite_difference": -0.42000000000097515,
+    "chunk_gradient_max_error": 2.384185791015625e-07,
+    "exponent_origin": "Episode timestep zero; never reset at chunks or points"
+  }
+}

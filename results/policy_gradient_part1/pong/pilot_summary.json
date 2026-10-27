@@ -1,0 +1,233 @@
+{
+  "protocol": {
+    "stage": "CPU pilots only",
+    "episodes": 10,
+    "seed": 101,
+    "learning_rates": [
+      0.01,
+      0.003,
+      0.001
+    ],
+    "representations": [
+      "difference",
+      "raw"
+    ],
+    "reference_episodes": 30,
+    "diagnostic_checkpoint": "difference_lr_0.003/latest.pt, specified before results",
+    "selection": "No formal configuration selected from this very small pilot budget"
+  },
+  "pilots": [
+    {
+      "representation": "difference",
+      "learning_rate": 0.01,
+      "completed_episodes": 10,
+      "requested_episodes": 10,
+      "complete": true,
+      "elapsed_this_invocation_seconds": 14.103636199999983,
+      "mean_last100": -20.4,
+      "training_seed": 101,
+      "checkpoint": "latest.pt",
+      "selection": "Fixed budget final checkpoint; no final evaluation used for selection"
+    },
+    {
+      "representation": "difference",
+      "learning_rate": 0.003,
+      "completed_episodes": 10,
+      "requested_episodes": 10,
+      "complete": true,
+      "elapsed_this_invocation_seconds": 13.350472399999944,
+      "mean_last100": -20.6,
+      "training_seed": 101,
+      "checkpoint": "latest.pt",
+      "selection": "Fixed budget final checkpoint; no final evaluation used for selection"
+    },
+    {
+      "representation": "difference",
+      "learning_rate": 0.001,
+      "completed_episodes": 10,
+      "requested_episodes": 10,
+      "complete": true,
+      "elapsed_this_invocation_seconds": 15.815624700000171,
+      "mean_last100": -20.4,
+      "training_seed": 101,
+      "checkpoint": "latest.pt",
+      "selection": "Fixed budget final checkpoint; no final evaluation used for selection"
+    },
+    {
+      "representation": "raw",
+      "learning_rate": 0.01,
+      "completed_episodes": 10,
+      "requested_episodes": 10,
+      "complete": true,
+      "elapsed_this_invocation_seconds": 12.354964000000109,
+      "mean_last100": -20.7,
+      "training_seed": 101,
+      "checkpoint": "latest.pt",
+      "selection": "Fixed budget final checkpoint; no final evaluation used for selection"
+    },
+    {
+      "representation": "raw",
+      "learning_rate": 0.003,
+      "completed_episodes": 10,
+      "requested_episodes": 10,
+      "complete": true,
+      "elapsed_this_invocation_seconds": 10.337503900000229,
+      "mean_last100": -20.6,
+      "training_seed": 101,
+      "checkpoint": "latest.pt",
+      "selection": "Fixed budget final checkpoint; no final evaluation used for selection"
+    },
+    {
+      "representation": "raw",
+      "learning_rate": 0.001,
+      "completed_episodes": 10,
+      "requested_episodes": 10,
+      "complete": true,
+      "elapsed_this_invocation_seconds": 11.510582100000192,
+      "mean_last100": -20.4,
+      "training_seed": 101,
+      "checkpoint": "latest.pt",
+      "selection": "Fixed budget final checkpoint; no final evaluation used for selection"
+    }
+  ],
+  "references": {
+    "pilot_policy": {
+      "episodes": 30,
+      "mean": -20.5,
+      "sample_std": 0.9377154924749757,
+      "minimum": -21.0,
+      "maximum": -17.0,
+      "ci95_normal": [
+        -20.83555717946373,
+        -20.16444282053627
+      ],
+      "checkpoint": "D:\\Code\\MLDS\\Assignment_1\\results\\policy_gradient_part1\\pong\\pilots\\difference_lr_0.003\\latest.pt",
+      "checkpoint_sha256": "a8e589d849277baebffa8b1faa758cf08f296ad30ae7da08b21ca7245a1307fe",
+      "training_episodes": 10,
+      "training_seed": 101,
+      "evaluation_seed": 4000000,
+      "policy_mode": "stochastic",
+      "reference": null,
+      "role": "diagnostic",
+      "elapsed_seconds": 25.676622099999804,
+      "environment": {
+        "id": "ALE/Pong-v5",
+        "max_episode_steps": null,
+        "action_meanings": [
+          "NOOP",
+          "FIRE",
+          "RIGHT",
+          "LEFT",
+          "RIGHTFIRE",
+          "LEFTFIRE"
+        ],
+        "learned_action_mapping": [
+          2,
+          3
+        ],
+        "frameskip": 4,
+        "repeat_action_probability": 0.25,
+        "fire_on_reset": false,
+        "reward_clipping": false,
+        "point_return_resets": false,
+        "frame_difference": true
+      },
+      "terminated_count": 30,
+      "truncated_count": 0,
+      "action0_fraction": 0.5523809024658655
+    },
+    "random": {
+      "episodes": 30,
+      "mean": -20.4,
+      "sample_std": 0.8136762043449727,
+      "minimum": -21.0,
+      "maximum": -18.0,
+      "ci95_normal": [
+        -20.691170290261617,
+        -20.10882970973838
+      ],
+      "checkpoint": "D:\\Code\\MLDS\\Assignment_1\\results\\policy_gradient_part1\\pong\\pilots\\difference_lr_0.003\\latest.pt",
+      "checkpoint_sha256": "a8e589d849277baebffa8b1faa758cf08f296ad30ae7da08b21ca7245a1307fe",
+      "training_episodes": 10,
+      "training_seed": 101,
+      "evaluation_seed": 4000000,
+      "policy_mode": "stochastic",
+      "reference": "random",
+      "role": "diagnostic",
+      "elapsed_seconds": 33.72665000000006,
+      "environment": {
+        "id": "ALE/Pong-v5",
+        "max_episode_steps": null,
+        "action_meanings": [
+          "NOOP",
+          "FIRE",
+          "RIGHT",
+          "LEFT",
+          "RIGHTFIRE",
+          "LEFTFIRE"
+        ],
+        "learned_action_mapping": [
+          2,
+          3
+        ],
+        "frameskip": 4,
+        "repeat_action_probability": 0.25,
+        "fire_on_reset": false,
+        "reward_clipping": false,
+        "point_return_resets": false,
+        "frame_difference": true
+      },
+      "terminated_count": 30,
+      "truncated_count": 0,
+      "action0_fraction": 0.5015290063642015
+    },
+    "fixed": {
+      "episodes": 30,
+      "mean": -21.0,
+      "sample_std": 0.0,
+      "minimum": -21.0,
+      "maximum": -21.0,
+      "ci95_normal": [
+        -21.0,
+        -21.0
+      ],
+      "checkpoint": "D:\\Code\\MLDS\\Assignment_1\\results\\policy_gradient_part1\\pong\\pilots\\difference_lr_0.003\\latest.pt",
+      "checkpoint_sha256": "a8e589d849277baebffa8b1faa758cf08f296ad30ae7da08b21ca7245a1307fe",
+      "training_episodes": 10,
+      "training_seed": 101,
+      "evaluation_seed": 4000000,
+      "policy_mode": "stochastic",
+      "reference": "fixed",
+      "role": "diagnostic",
+      "elapsed_seconds": 28.205648099999962,
+      "environment": {
+        "id": "ALE/Pong-v5",
+        "max_episode_steps": null,
+        "action_meanings": [
+          "NOOP",
+          "FIRE",
+          "RIGHT",
+          "LEFT",
+          "RIGHTFIRE",
+          "LEFTFIRE"
+        ],
+        "learned_action_mapping": [
+          2,
+          3
+        ],
+        "frameskip": 4,
+        "repeat_action_probability": 0.25,
+        "fire_on_reset": false,
+        "reward_clipping": false,
+        "point_return_resets": false,
+        "frame_difference": true
+      },
+      "terminated_count": 30,
+      "truncated_count": 0,
+      "action0_fraction": 1.0
+    }
+  },
+  "formal_training_completed": false,
+  "final_500_episode_evaluation_completed": false,
+  "limitation": "Two updates per pilot at default budget: stability/runtime evidence only; no claim of convergence or representation superiority"
+}

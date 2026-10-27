@@ -1,0 +1,93 @@
+{
+  "python": "3.12.6 | packaged by conda-forge | (main, Sep 22 2024, 14:16:49) [GCC 13.3.0]",
+  "platform": "Linux-6.12.111+deb13-amd64-x86_64-with-glibc2.41",
+  "packages": {
+    "numpy": "2.5.3",
+    "torch": "2.14.0",
+    "gymnasium": "1.4.0",
+    "ale-py": "0.10.2",
+    "matplotlib": "3.11.2"
+  },
+  "git_commit": null,
+  "git_status": "No Git metadata",
+  "source_sha256": {
+    "policy_gradient_part1/__init__.py": "399fc6fcd8f96b06b6c74f94589b54e458a3f0c0f9988a3550d668512ddf73fd",
+    "policy_gradient_part1/cli.py": "c413decd9f37fe33e99168d01c7cac0f75c4bdcc1fb2a4dd0cdd6e546d4c54d5",
+    "policy_gradient_part1/config.py": "e1fe326bfc4e1160dbf47f3c986062d54db2223af2a5139755537f81803d87cf",
+    "policy_gradient_part1/environments.py": "914679785e354250ccf796e63953485ba7d9f115fa5b8ada6df6122029970b06",
+    "policy_gradient_part1/evaluator.py": "3c0cc87bc2b537116d29a4e3ebb8382f201647f5660b08a5fbf270f3761a6d34",
+    "policy_gradient_part1/models.py": "281006ee581177e1c699c2d75f8c640ac81f7ae9ceb5040a92c6c3672a320814",
+    "policy_gradient_part1/plots.py": "05e54e6330ddc3832d638ebaf15c954f4e1d30c8492fc093b0328fb198ec83ee",
+    "policy_gradient_part1/preprocessing.py": "a19351cff332aba9b255db05c003ceb1823837c1b7c626a47c567600f1e01145",
+    "policy_gradient_part1/reinforce.py": "33a9a98e456c46655fc2ea783ba7dbd69e31834451ba5ca653bab3b8f1dd7f9c",
+    "policy_gradient_part1/reporting.py": "159cb7e5a4b3a478bc4ff42e0b098d3cb8512777dd4f9d7ec351aaec1c89afd3",
+    "policy_gradient_part1/rollout.py": "a1608cc845bf90ae12b87be89f6656402ba8af37fc75f9693e2a0ef4d5280708",
+    "policy_gradient_part1/runtime.py": "aaf1263791d1efae8adf2fe56a4f70cb7bd517931ba767343f69730b6a3ff0f8",
+    "policy_gradient_part1/trainer.py": "eb650630063b47b4db8de2ad6f82da6ed3962dbea74d5941c68ae8791a10cb3e",
+    "policy_gradient_part1/validation.py": "432feed0ab2fe1f80ea8779bf92b11c0c68847f8f638ca09141e35dc2cf6ba42",
+    "scripts/diagnose_pg2.py": "48d5d8c39b588d6c41c4f066d1451361755a41ad3ba9e356cd2e22f4237f68a6",
+    "scripts/evaluate_pg.py": "a2ee765af45f23ef83d6f5a45d949eb729326f3f5df24cef62f2b4761b43c683",
+    "scripts/launch_pong_part2.py": "0bb94c8fdf1d71e0f8c9d1e8938ff2045d4f16007615d8f5dc5a738e67f8121c",
+    "scripts/pong_part2_pipeline.py": "cd3578de0038bd308c9275c8010390f8560c2c903546bd03f27deb6c5f4bfc6f",
+    "scripts/train_pg2.py": "5e380721f59a06b864b53d4b76aea0a929a0fda3455bd5ede198295a6d5b4111",
+    "scripts/validate_pg2.py": "394debe6ef474baa1919e78d51f4636b7043785d401e8d7faaa3130f38f9a9ff",
+    "scripts/verify_pg_resume.py": "69c060992fb6005f56deb11fbbc4e0b5506e0c93a48406975206918c0a253137",
+    "scripts/verify_source_snapshot.py": "7fd762d428a91729a48b063809b3f46ab6ff8118cd9965126d63f3e449022df7",
+    "configs/cartpole_part2.json": "1b89aa81295abe3aae58dec02869ae8980e5944fb33f682088ddef8d511a38c3",
+    "configs/pong_part2.json": "897c0a6107424363b9ef50c1301d4035054754e66353e7989c456c5b52eb468e",
+    "policy_gradient_part2/__init__.py": "3447a95835fba50faa3c8dfe1f12339e3f0cc873cc2927e9f9c37dce34a67bef",
+    "policy_gradient_part2/analysis.py": "05dc945488fe2e47a07f79a93733891a44f234cefeb7fa640faa38b3bc7ba24d",
+    "policy_gradient_part2/baseline.py": "458991a2845c5a98ff9c63a8fb1b31a379040d776a78bb16b045e1a946f87194"
+  },
+  "model": "Sequential(\n  (0): Conv2d(1, 8, kernel_size=(8, 8), stride=(4, 4))\n  (1): ReLU()\n  (2): Conv2d(8, 16, kernel_size=(4, 4), stride=(2, 2))\n  (3): ReLU()\n  (4): Conv2d(16, 32, kernel_size=(3, 3), stride=(1, 1))\n  (5): ReLU()\n  (6): Flatten(start_dim=1, end_dim=-1)\n  (7): Linear(in_features=1152, out_features=64, bias=True)\n  (8): ReLU()\n  (9): Linear(in_features=64, out_features=2, bias=True)\n)",
+  "parameters": 81146,
+  "cuda_visible_devices": "GPU-ec0c988c-3d23-d55e-7713-293719142e7d",
+  "pid": 1518234,
+  "objective": "negative time-sum of sampled log probabilities times gamma^t (G_t - b) (strict initial-state discounted objective); mean over episodes; past-episode constant baseline; no entropy bonus or return scaling",
+  "gpu": {
+    "name": "NVIDIA RTX PRO 5000 Blackwell",
+    "capability": [
+      12,
+      0
+    ],
+    "torch_cuda": "13.0",
+    "compiled_arches": [
+      "sm_75",
+      "sm_80",
+      "sm_86",
+      "sm_90",
+      "sm_100",
+      "sm_120"
+    ]
+  },
+  "baseline_protocol": {
+    "kind": "ema_previous_discounted_G0",
+    "alpha": 0.05,
+    "statistic": "G_0 = sum_t gamma^t r_t, one scalar per completed episode",
+    "initialization": "Zero for the first batch; first observed G_0 initializes EMA",
+    "timing": "Frozen across the entire update batch; sequential EMA updates only AFTER Adam.step()",
+    "no_current_batch_leakage": true
+  },
+  "environment": {
+    "id": "ALE/Pong-v5",
+    "max_episode_steps": null,
+    "action_meanings": [
+      "NOOP",
+      "FIRE",
+      "RIGHT",
+      "LEFT",
+      "RIGHTFIRE",
+      "LEFTFIRE"
+    ],
+    "learned_action_mapping": [
+      2,
+      3
+    ],
+    "frameskip": 4,
+    "repeat_action_probability": 0.25,
+    "fire_on_reset": false,
+    "reward_clipping": false,
+    "point_return_resets": false,
+    "frame_difference": true
+  }
+}

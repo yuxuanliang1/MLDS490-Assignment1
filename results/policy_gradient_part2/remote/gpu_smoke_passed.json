@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "complete_training_games": 4,
+  "separate_evaluation_games": 2,
+  "baseline_state": {
+    "kind": "ema_previous_discounted_G0",
+    "alpha": 0.05,
+    "value": -0.8863073537357937,
+    "count": 4
+  },
+  "baseline_used_after_resume": -0.8477958910355499,
+  "gpu": {
+    "name": "NVIDIA RTX PRO 5000 Blackwell",
+    "capability": [
+      12,
+      0
+    ],
+    "torch_cuda": "13.0",
+    "compiled_arches": [
+      "sm_75",
+      "sm_80",
+      "sm_86",
+      "sm_90",
+      "sm_100",
+      "sm_120"
+    ]
+  }
+}

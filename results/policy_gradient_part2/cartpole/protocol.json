@@ -1,0 +1,17 @@
+{
+  "primary_seed": 11,
+  "seeds": [
+    11,
+    22,
+    33
+  ],
+  "alpha": 0.05,
+  "episodes": 1500,
+  "learning_rate": 0.003,
+  "discount_weighting": "relative",
+  "selection": "Predeclared seed 11, final budget checkpoint; no retuning",
+  "final_evaluation_seed": 1000000,
+  "final_evaluation_episodes": 500,
+  "robustness_episodes": 100,
+  "robustness_seed": 2000000
+}
